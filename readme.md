@@ -1,14 +1,14 @@
-#MCBS Data Static Site
+# MCBS Data Static Site
 
-##Installation
+## Installation
 
 Run `npm install` to install eleventy and sass.
 
-##Running local development server
+## Running local development server
 
-`npm start` runs a local development server at `http://localhost:8080`. Changes to src files will recompile and auto-refresh in the browser.
+`npm start` runs a local development server at `http://localhost:8080` and compiles code to a `public` folder. Changes to `src` files will recompile and auto-refresh in the browser.
 
-##Building
+## Building
 
 The contents of the `public` folder will be the static site as it lives online.
 
