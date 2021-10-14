@@ -1,4 +1,5 @@
 node_modules/
-public/
+public/css
+public/*.html
 .DS_Store
 .DS_Store?
