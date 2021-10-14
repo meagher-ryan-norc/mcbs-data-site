@@ -1,3 +1,23 @@
 body {
   font-family: sans-serif;
 }
+
+.navbar {
+  width: 100%;
+  background-color: blue;
+  padding: 0.5rem;
+  p {
+    color: white;
+    font-weight: bold;
+  }
+}
+
+.footer {
+  width: 100%;
+  background-color: blue;
+  padding: 0.5rem;
+  p {
+    color: white;
+    font-weight: bold;
+  }
+}

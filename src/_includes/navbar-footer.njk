@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href="{{ '../../css/style.css' | url }}" />
+  </head>
+  <body>
+    <div class='navbar'>
+      <p>Navbar</p>
+    </div>
+    {{ content | safe }}
+    <div class='footer'>
+      <p>Footer</p>
+    </div>
+  </body>
+</html>
