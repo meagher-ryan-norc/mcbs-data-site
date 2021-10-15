@@ -23,6 +23,10 @@
     text-decoration: none;
     color: white;
     margin: 0 0 0 2rem;
+
+    &:hover {
+      color: $mcbs-yellow;
+    }
   }
 }
 
@@ -47,6 +51,8 @@
 }
 
 .dropdown .drop-btn {
+  display: flex;
+  align-items: center;
   cursor: pointer;
   font-size: 16px;
   border: none;
@@ -56,11 +62,22 @@
   font-family: inherit;
   margin: 0;
   font-weight: 700;
+
+  &:hover {
+    color: $mcbs-yellow;
+  }
+
+  img {
+    display: block;
+    margin: 0 0 0 6px;
+    width: 15px;
+  }
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
+  transform: translate(0, 10px);
   background-color: $mcbs-lite-gray;
   min-width: 160px;
   box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
@@ -76,6 +93,11 @@
   display: block;
   text-align: left;
   margin: 0;
+
+  &:hover {
+    color: black;
+    background-color: $mcbs-yellow;
+  }
 }
 
 .show {

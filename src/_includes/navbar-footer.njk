@@ -18,6 +18,7 @@
         <a href='/'>Home</a>
         <div class='dropdown'>
           <button class='drop-btn' id='about-btn' onclick="navDropdown('about')">About
+            <img src='/img/down_chevron.svg'>
           </button>
           <div class='dropdown-content' id='aboutDropdown'>
             {% for page in collections.about %}
@@ -27,6 +28,7 @@
         </div>
         <div class='dropdown'>
           <button class='drop-btn' id='tools-btn' onclick="navDropdown('tools')">Data tools
+            <img src='/img/down_chevron.svg'>
           </button>
           <div class='dropdown-content' id='toolsDropdown'>
             <a href="/covid-data/preventative/">Covid-19 data tool</a>
@@ -39,7 +41,15 @@
     </div>
     {{ content | safe }}
     <div class='footer'>
-      <p>Footer</p>
+      <div class='foot-left'>
+        <a href='#'>logo</a>
+      </div>
+      <div class='foot-right'>
+        <p>NORC at the University of Chicago</p>
+        <p>55 East Monroe Street, Chicago, IL 60603</p>
+        <p><a href='#'>Terms and Conditions</a> | <a href='#'>Privacy Policy</a></p>
+        <p>&copy; 2021 NORC</p>
+      </div>
     </div>
     <script>
       function navDropdown(dropdown) {
