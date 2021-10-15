@@ -1,9 +1,4 @@
 node_modules/
-public/css
-public/*.html
-public/covid-data
-public/puf-data
-public/about
-public/contact
+public/
 .DS_Store
 .DS_Store?

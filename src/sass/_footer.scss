@@ -3,15 +3,23 @@
   justify-content: space-between;
   align-items: center;
   background: $mcbs-dark-blue;
-  padding: 1.5rem 5rem;
+  padding: 2.5rem 5rem;
   margin: 0;
+}
+
+.foot-left {
+  width: 325px;
+  img {
+    width: 100%;
+  }
 }
 
 .foot-right {
   p {
     text-align: right;
     color: white;
-    margin: 0.25em;
+    line-height: 1.5em;
+    margin: 0;
     font-weight: 100;
     font-size: 14px;
   }
