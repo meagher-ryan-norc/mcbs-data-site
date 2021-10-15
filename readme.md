@@ -6,7 +6,7 @@ Run `npm install` to install eleventy, sass, and other relevant packages.
 
 ## Running local development server
 
-`npm start` runs a local development server vis Browsersync at `http://localhost:8080` and compiles code to a `public` folder. Changes to `src` files will recompile and auto-refresh in the browser.
+`npm start` runs a local development server via Browsersync at `http://localhost:8080` and compiles code to a `public` folder. Changes to `src` files will recompile and auto-refresh in the browser.
 
 ## Development
 
@@ -47,7 +47,7 @@ For example, all of the pages for the Covid-19 data tool are gathered together i
 
 Collections are sorted by "date," because I guess Eleventy assumes they would be used for a blog? Until dates are added, collections are sorted by creation date of the file. Eventually an "order" attribute could be added to the front matter of each page in a collection, and a custom sort could be created in the Eleventy config file.
 
-[More on Eleventy collections.](https://www.11ty.dev/docs/collections/#array-reverse)
+[More on Eleventy collections.](https://www.11ty.dev/docs/collections/)
 
 ### Styles
 
