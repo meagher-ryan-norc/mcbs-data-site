@@ -3,9 +3,11 @@
 $mcbs-blue: #074480;
 $mcbs-dark-blue: #06325D;
 $mcbs-yellow: #FBBA17;
+$mcbs-dark-yellow: #CE9407;
 $mcbs-green: #317347;
 $mcbs-gray: #939598;
 $mcbs-lite-gray: #E6E7E8;
+$mcbs-background-gray: #D3DAE4;
 
 
 // Imports
@@ -13,10 +15,15 @@ $mcbs-lite-gray: #E6E7E8;
 
 @import 'navbar';
 @import 'footer';
+@import 'home';
 
 
 body {
   padding: 0;
   margin: 0;
   font-family: 'Roboto', sans-serif;
+}
+
+main {
+  padding: 2rem 5vw;
 }

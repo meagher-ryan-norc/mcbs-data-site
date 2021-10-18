@@ -1,5 +1,6 @@
-module.exports = function(eleventyConfig) {
+const outdent = require('outdent');
 
+module.exports = function(eleventyConfig) {
   eleventyConfig.addWatchTarget("./src/sass/");
   eleventyConfig.addPassthroughCopy("./src/css");
   eleventyConfig.addPassthroughCopy("./src/img");

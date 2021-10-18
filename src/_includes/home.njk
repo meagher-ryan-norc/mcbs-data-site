@@ -1,0 +1,32 @@
+---
+layout: navbar-footer.njk
+---
+
+<div class='home-main'>
+  <div class='home-container' id='hero'>
+    <h1>{{hed}}</h1>
+    <div class='hero_img'>
+    </div>
+  </div>
+  <div class='home-container' id='carousel-container'>
+  <div class='carousel-flex'>
+    <h2 class='homepage-label homepage-label__dkyellow'>Covid-19 tool</h2>
+    <ul>
+    {% for chart in collections.covidData %}
+    <li><a href="{{ chart.url }}">{{ chart.data.title }}</a></li>
+    {% endfor %}
+    </ul>
+  </div>
+  <div class='carousel-flex'>
+    <h2 class='homepage-label homepage-label__green'>Survey file tool</h2>
+    <ul>
+    {% for chart in collections.pufData %}
+    <li><a href="{{ chart.url }}">{{ chart.data.title }}</a></li>
+    {% endfor %}
+    </ul>
+  </div>
+  </div>
+  <div class='home-container' id='explore'>
+    <h2 class='homepage-label homepage-label__blue'>MCBS data tools</h2>
+  </div>
+</div>

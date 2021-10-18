@@ -1,3 +1,10 @@
+---
+footerLabel: About MCBS
+footerHed: The Medicare Current Beneficiary Survey
+footerText: The MCBS is a continuous, multi-purpose longitudinal survey representing the population of Medicare beneficiaries living in the United States. The MCBS has been continuously conducted since 1991, completing more than 1.2 million interviews since its inception. The MCBS is designed to aid CMS in administering, monitoring, and evaluating the Medicare program, and is essential in providing important information on beneficiaries that is not otherwise collected through operational or administrative data from the Medicare  program.
+footerLink: Explore more in the MCBS section
+---
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -42,7 +49,13 @@
       </div>
     </div>
     {{ content | safe }}
-    <div class='footer'>
+    <div class='footer-top'>
+      <h2>{{footerLabel}}</h2>
+      <h3>{{footerHed}}</h3>
+      <p>{{footerText}}</p>
+      <p><a href='/about/mcbs'>{{footerLink}}</a></p>
+    </div>
+    <div class='footer-bottom'>
       <a href='#'>
         <div class='foot-left'>
           <img src='/img/norc-logo-white.png'>
