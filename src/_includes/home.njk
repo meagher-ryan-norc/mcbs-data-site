@@ -7,43 +7,47 @@ layout: navbar-footer.njk
     <h1>{{hed}}</h1>
     <div class='hero-img'>
       <img src='/img/chart-screencap.png'>
-      <a href='/covid-data/preventative/'><span>EXPLORE DATA</span></a>
+      <a href='/covid-data/preventive/'><span>EXPLORE DATA TOOLS</span></a>
     </div>
   </div>
 
   <div class='home-container' id='carousel-container'>
     <div class='carousel-flex'>
       <div class='carousel-about'>
-        <h2 class='homepage-label homepage-label__dkyellow'>Covid-19 tool</h2>
+        <h2 class='homepage-label homepage-label__dkyellow'>Covid-19 data tool</h2>
         <h3>{{covidHed}}</h3>
         <p>{{covidText}}</p>
       </div>
-      <div class='carousel'>
-        <ul>
-          {% for chart in collections.covidData %}
-          <li><a href="{{ chart.url }}">{{ chart.data.title }}</a></li>
-          {% endfor %}
+      <div class='splide'>
+        <div class='splide__track'>
+          <ul class='splide__list'>
+            {% for chart in collections.sortedCovid %}
+            <li class='splide__slide'><a href="{{ chart.url }}">{{ chart.data.title }}!</a></li>
+            {% endfor %}
           </ul>
+        </div>
       </div>
     </div>
 
     <div class='carousel-flex'>
       <div class='carousel-about'>
-        <h2 class='homepage-label homepage-label__green'>Survey file tool</h2>
+        <h2 class='homepage-label homepage-label__green'>Survey file PUF data tool</h2>
         <h3>{{pufHed}}</h3>
         <p>{{pufText}}</p>
       </div>
-      <div class='carousel'>
-        <ul>
-          {% for chart in collections.pufData %}
-          <li><a href="{{ chart.url }}">{{ chart.data.title }}</a></li>
-          {% endfor %}
+      <div class='splide'>
+        <div class='splide__track'>
+          <ul class='splide__list'>
+            {% for chart in collections.sortedPuf %}
+            <li class='splide__slide'><a href="{{ chart.url }}">{{ chart.data.title }}!</a></li>
+            {% endfor %}
           </ul>
+        </div>
       </div>
     </div>
   </div>
 
   <div class='home-container' id='explore'>
-    <h2 class='homepage-label homepage-label__blue'>MCBS data tools</h2>
+    <h2 class='homepage-label homepage-label__blue'>Search MCBS data tools</h2>
   </div>
 </div>

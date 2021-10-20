@@ -1,8 +1,8 @@
 ---
-footerLabel: About MCBS
+footerLabel: About the MCBS
 footerHed: The Medicare Current Beneficiary Survey
 footerText: The MCBS is a continuous, multi-purpose longitudinal survey representing the population of Medicare beneficiaries living in the United States. The MCBS has been continuously conducted since 1991, completing more than 1.2 million interviews since its inception. The MCBS is designed to aid CMS in administering, monitoring, and evaluating the Medicare program, and is essential in providing important information on beneficiaries that is not otherwise collected through operational or administrative data from the Medicare  program.
-footerLink: Explore more in the MCBS section
+footerLink: Explore >>
 ---
 
 <!DOCTYPE html>
@@ -11,6 +11,7 @@ footerLink: Explore more in the MCBS section
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
+    <link rel='stylesheet' href="{{ '../../css/splide.min.css' | url }}" />
     <link rel='stylesheet' href="{{ '../../css/style.css' | url }}" />
   </head>
   <body>
@@ -68,7 +69,26 @@ footerLink: Explore more in the MCBS section
         <p>&copy; 2021 NORC</p>
       </div>
     </div>
+    <script>var exports = {};</script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.1.7/dist/js/splide.cjs.min.js"></script>
     <script>
+      document.addEventListener('DOMContentLoaded', function(){
+        if (document.querySelector('.splide')) {
+          const sliders = document.getElementsByClassName('splide');
+          for (let i = 0; i < sliders.length; i++) {
+            new Splide(sliders[i], {
+              type: 'loop',
+              padding: { left: 0, right: '2rem' },
+              perPage: 3,
+              perMove: 1,
+              pagination: false,
+              autoWidth: true,
+              gap: '2rem',
+            }).mount();
+          }
+        }
+      })
+
       function navDropdown(dropdown) {
         let dropdownID = dropdown + 'Dropdown';
         document. getElementById(dropdownID).classList.toggle("show");

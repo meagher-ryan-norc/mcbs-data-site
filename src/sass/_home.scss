@@ -4,7 +4,8 @@
     font-weight: 300;
     text-align: center;
     color: white;
-    width: 80%;
+    width: 60vw;
+    min-width: 260px;
     margin: 0 auto 1rem auto;
   }
 
@@ -44,7 +45,7 @@
   border-radius: 20px;
   position: relative;
   padding: 3rem 2rem;
-  width: 60vw;
+  width: 58vw;
   min-width: 300px;
   margin: 2rem auto;
   box-shadow: 2px 8px 15px rgba(0, 0, 0, 0.4);
@@ -98,13 +99,13 @@
   clear: both;
   display: flex;
   justify-content: space-between;
-  margin: 2rem 0;
+  margin: 3rem 0;
 }
 
 .carousel-about {
   width: 25%;
   h3 {
-    font-size: 40px;
+    font-size: 38px;
     font-weight: 300;
     margin: 1rem 0;
   }

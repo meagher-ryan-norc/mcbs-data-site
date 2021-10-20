@@ -27,3 +27,21 @@ body {
 main {
   padding: 2rem 5vw;
 }
+
+.splide {
+  width: 70%;
+
+  &__slide {
+    width: 300px;
+    height: 400px;
+    background: pink;
+  }
+
+  &__arrow--prev {
+    left: -2rem;
+  }
+
+  &__arrow--next {
+    right: -2rem;
+  }
+}
