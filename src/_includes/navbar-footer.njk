@@ -1,144 +1,62 @@
 ---
+layout: page.njk
 footerLabel: About the MCBS
 footerHed: The Medicare Current Beneficiary Survey
 footerText: The MCBS is a continuous, multi-purpose longitudinal survey representing the population of Medicare beneficiaries living in the United States. The MCBS has been continuously conducted since 1991, completing more than 1.2 million interviews since its inception. The MCBS is designed to aid CMS in administering, monitoring, and evaluating the Medicare program, and is essential in providing important information on beneficiaries that is not otherwise collected through operational or administrative data from the Medicare  program.
 footerLink: Explore >>
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }}</title>
-    <link rel='stylesheet' href="{{ '../../css/splide.min.css' | url }}" />
-    <link rel='stylesheet' href="{{ '../../css/style.css' | url }}" />
-  </head>
-  <body>
-    <div class='navbar'>
-      <div class='nav-left'>
-        <a href='/'>
-          <div class='nav-logo'>
-            <img src='/img/mcbs-logo-white.png'>
-          </div>
-        </a>
-        <p class='nav-title'>MCBS Interactives</p>
+
+<div class='navbar'>
+  <div class='nav-left'>
+    <a href='/'>
+      <div class='nav-logo'>
+        <img src='/img/mcbs-logo-white.png'>
       </div>
-      <div class='nav-right'>
-        <a href='/'>Home</a>
-        <div class='dropdown'>
-          <button class='drop-btn' id='about-btn' onclick="navDropdown('about')">About
-            <img src='/img/down_chevron.svg'>
-          </button>
-          <div class='dropdown-content' id='aboutDropdown'>
-            {% for page in collections.about %}
-            <a href="{{ page.url }}">{{ page.data.title }}</a>
-            {% endfor %}
-          </div>
-        </div>
-        <div class='dropdown'>
-          <button class='drop-btn' id='tools-btn' onclick="navDropdown('tools')">Data tools
-            <img src='/img/down_chevron.svg'>
-          </button>
-          <div class='dropdown-content' id='toolsDropdown'>
-            <a href="/covid-data/preventative/">Covid-19 data tool</a>
-            <a href="/puf-data/insurance-coverage-supplemental/">Survey file PUF data tool</a>
-          </div>
-        </div>
-        <a href='/contact/'>Contact Us</a>
+    </a>
+    <p class='nav-title'>MCBS Interactives</p>
+  </div>
+  <div class='nav-right'>
+    <a href='/'>Home</a>
+    <div class='dropdown'>
+      <button class='drop-btn' id='about-btn' onclick="navDropdown('about')">About
+        <img src='/img/down_chevron.svg'>
+      </button>
+      <div class='dropdown-content' id='aboutDropdown'>
+        {% for page in collections.about %}
+        <a href="{{ page.url }}">{{ page.data.title }}</a>
+        {% endfor %}
       </div>
     </div>
-    {{ content | safe }}
-    <div class='footer-top'>
-      <h2>{{footerLabel}}</h2>
-      <h3>{{footerHed}}</h3>
-      <p>{{footerText}}</p>
-      <p><a href='/about/mcbs'>{{footerLink}}</a></p>
-    </div>
-    <div class='footer-bottom'>
-      <a href='#'>
-        <div class='foot-left'>
-          <img src='/img/norc-logo-white.png'>
-        </div>
-      </a>
-      <div class='foot-right'>
-        <p>NORC at the University of Chicago</p>
-        <p>55 East Monroe Street, Chicago, IL 60603</p>
-        <p><a href='#'>Terms and Conditions</a> | <a href='#'>Privacy Policy</a></p>
-        <p>&copy; 2021 NORC</p>
+    <div class='dropdown'>
+      <button class='drop-btn' id='tools-btn' onclick="navDropdown('tools')">Data tools
+        <img src='/img/down_chevron.svg'>
+      </button>
+      <div class='dropdown-content' id='toolsDropdown'>
+        <a href="/covid-data/preventative/">Covid-19 data tool</a>
+        <a href="/puf-data/insurance-coverage-supplemental/">Survey file PUF data tool</a>
       </div>
     </div>
-    <script>var exports = {};</script>
-    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.1.7/dist/js/splide.cjs.min.js"></script>
-    <script>
-      function setPanels () {
-        const infoPanels = document.querySelectorAll('.slide__info');
-
-        for (let i = 0; i < infoPanels.length; i++){
-          setHeight(infoPanels[i]);
-        }
-      }
-
-      function setHeight(element) {
-        const panelHeight = element.clientHeight;
-        const panelLabel = element.firstElementChild;
-        const labelHeight = panelLabel.clientHeight;
-        const bottomMeasure = (panelHeight - labelHeight - 23) * -1;
-        element.style.bottom = `${bottomMeasure}px`;
-      }
-
-      document.addEventListener('DOMContentLoaded', function(){
-        if (document.querySelector('.splide')) {
-          const sliders = document.getElementsByClassName('splide');
-          for (let i = 0; i < sliders.length; i++) {
-            new Splide(sliders[i], {
-              type: 'loop',
-              padding: { left: 0, right: '2rem' },
-              perPage: 3,
-              perMove: 1,
-              pagination: false,
-              autoWidth: true,
-              gap: '2rem',
-            }).mount();
-          }
-          setPanels();
-        }
-
-        const panelLinks = document.querySelectorAll('.slide__link');
-        for (let i = 0; i < panelLinks.length; i++){
-          const panel = panelLinks[i].firstElementChild;
-          panelLinks[i].onmouseover = function(){
-            panel.style.bottom = '0px';
-          };
-          panelLinks[i].onmouseout = function(){
-            setHeight(panel);
-          };
-        }
-      })
-
-      window.addEventListener('resize', function(){
-        setPanels();
-      })
-
-      function navDropdown(dropdown) {
-        let dropdownID = dropdown + 'Dropdown';
-        document. getElementById(dropdownID).classList.toggle("show");
-      }
-
-      window.onclick = function(e) {
-        if (e.target.id != 'tools-btn') {
-          let targetDropdown = document.getElementById("toolsDropdown");
-          if (targetDropdown.classList.contains('show')) {
-            targetDropdown.classList.remove('show');
-          }
-        }
-        if (e.target.id != 'about-btn') {
-          let targetDropdown = document.getElementById("aboutDropdown");
-          if (targetDropdown.classList.contains('show')) {
-            targetDropdown.classList.remove('show');
-          }
-        }
-      }
-    </script>
-  </body>
-</html>
+    <a href='/contact/'>Contact Us</a>
+  </div>
+</div>
+{{ content | safe }}
+<div class='footer-top'>
+  <h2>{{footerLabel}}</h2>
+  <h3>{{footerHed}}</h3>
+  <p>{{footerText}}</p>
+  <p><a href='/about/mcbs'>{{footerLink}}</a></p>
+</div>
+<div class='footer-bottom'>
+  <a href='#'>
+    <div class='foot-left'>
+      <img src='/img/norc-logo-white.png'>
+    </div>
+  </a>
+  <div class='foot-right'>
+    <p>NORC at the University of Chicago</p>
+    <p>55 East Monroe Street, Chicago, IL 60603</p>
+    <p><a href='#'>Terms and Conditions</a> | <a href='#'>Privacy Policy</a></p>
+    <p>&copy; 2021 NORC</p>
+  </div>
+</div>
