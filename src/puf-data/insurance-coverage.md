@@ -1,5 +1,5 @@
 ---
-title: "Insurance coverage: Medicare"
+title: Insurance coverage
 description: Explore differences in health insurance coverage across Medicare beneficiaries by year.
 order: 1
 iframe: /#

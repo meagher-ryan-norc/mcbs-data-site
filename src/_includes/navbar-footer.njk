@@ -46,7 +46,6 @@ footerLink: Explore >>
           </div>
         </div>
         <a href='/contact/'>Contact Us</a>
-        <a href='/share/'>Share</a>
       </div>
     </div>
     {{ content | safe }}
@@ -72,6 +71,23 @@ footerLink: Explore >>
     <script>var exports = {};</script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.1.7/dist/js/splide.cjs.min.js"></script>
     <script>
+      function setPanels () {
+        const infoPanels = document.querySelectorAll('.slide__info');
+
+        for (let i = 0; i < infoPanels.length; i++){
+          setHeight(infoPanels[i]);
+        }
+      }
+
+      function setHeight(element) {
+        const panelHeight = element.clientHeight;
+        const panelLabel = element.firstElementChild;
+        const labelHeight = panelLabel.clientHeight;
+        console.log("panel", panelHeight, "label", labelHeight);
+        const bottomMeasure = (panelHeight - labelHeight - 23) * -1;
+        element.style.bottom = `${bottomMeasure}px`;
+      }
+
       document.addEventListener('DOMContentLoaded', function(){
         if (document.querySelector('.splide')) {
           const sliders = document.getElementsByClassName('splide');
@@ -86,7 +102,23 @@ footerLink: Explore >>
               gap: '2rem',
             }).mount();
           }
+          setPanels();
         }
+
+        const panelLinks = document.querySelectorAll('.slide__link');
+        for (let i = 0; i < panelLinks.length; i++){
+          const panel = panelLinks[i].firstElementChild;
+          panelLinks[i].onmouseover = function(){
+            panel.style.bottom = '0px';
+          };
+          panelLinks[i].onmouseout = function(){
+            setHeight(panel);
+          };
+        }
+      })
+
+      window.addEventListener('resize', function(){
+        setPanels();
       })
 
       function navDropdown(dropdown) {

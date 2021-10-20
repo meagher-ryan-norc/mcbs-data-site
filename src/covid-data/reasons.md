@@ -1,8 +1,0 @@
----
-title: Reasons for not getting vaccine
-description: Examine how COVID-19 vaccination rates and attitudes towards getting vaccinated varied across Medicare beneficiaries.
-order: 8
-iframe: /#
----
-
-"Reasons for not getting vaccine" iframe goes here

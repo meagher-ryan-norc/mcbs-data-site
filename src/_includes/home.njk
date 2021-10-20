@@ -22,7 +22,16 @@ layout: navbar-footer.njk
         <div class='splide__track'>
           <ul class='splide__list'>
             {% for chart in collections.sortedCovid %}
-            <li class='splide__slide'><a href="{{ chart.url }}">{{ chart.data.title }}!</a></li>
+            <li class='splide__slide'>
+              <img src='/img/carousel/preventive.jpg'>
+              <a class='slide__link' href="{{ chart.url }}">
+                <div class='slide__info'>
+                  <h4>{{ chart.data.title }}</h4>
+                  <p>{{ chart.data.description }}</p>
+                  <p class='slide__info__explore'>Explore data</p>
+                </div>
+              </a>
+            </li>
             {% endfor %}
           </ul>
         </div>
@@ -39,7 +48,16 @@ layout: navbar-footer.njk
         <div class='splide__track'>
           <ul class='splide__list'>
             {% for chart in collections.sortedPuf %}
-            <li class='splide__slide'><a href="{{ chart.url }}">{{ chart.data.title }}!</a></li>
+            <li class='splide__slide'>
+              <img src='/img/carousel/preventive.jpg'>
+              <a class='slide__link' href="{{ chart.url }}">
+                <div class='slide__info'>
+                  <h4>{{ chart.data.title }}</h4>
+                  <p>{{ chart.data.description }}</p>
+                  <p class='slide__info__explore'>Explore data</p>
+                </div>
+              </a>
+            </li>
             {% endfor %}
           </ul>
         </div>
