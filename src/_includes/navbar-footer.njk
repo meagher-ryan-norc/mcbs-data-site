@@ -83,7 +83,6 @@ footerLink: Explore >>
         const panelHeight = element.clientHeight;
         const panelLabel = element.firstElementChild;
         const labelHeight = panelLabel.clientHeight;
-        console.log("panel", panelHeight, "label", labelHeight);
         const bottomMeasure = (panelHeight - labelHeight - 23) * -1;
         element.style.bottom = `${bottomMeasure}px`;
       }
