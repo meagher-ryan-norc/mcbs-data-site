@@ -3,7 +3,7 @@
   background-color: $mcbs-blue;
   text-align: center;
 
-  h2 {
+  &__label {
     font-weight: 600;
     text-transform: uppercase;
     font-size: 20px;
@@ -11,7 +11,7 @@
     color: $mcbs-yellow;
   }
 
-  h3 {
+  &__hed {
     font-size: 48px;
     font-weight: 300;
     color: white;
@@ -19,7 +19,7 @@
     margin: 0 auto 1rem auto;
   }
 
-  p {
+  &__text {
     font-size: 20px;
     color: white;
     width: 70%;
@@ -28,7 +28,7 @@
     line-height: 1.4em;
   }
 
-  a {
+  &__link {
     font-weight: 600;
     text-transform: uppercase;
     font-size: 20px;
@@ -38,8 +38,17 @@
     &:hover {
       text-decoration: underline;
     }
+
+    &__chevron{
+      width: 16px;
+      height: 16px;
+      margin: 0 0 0 4px;
+      fill: $mcbs-yellow;
+    }
   }
 }
+
+
 
 .footer-bottom {
   display: flex;

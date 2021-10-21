@@ -55,6 +55,14 @@
   margin: 0 0 0 2rem;
 }
 
+
+.navbar-chevron {
+  width: 16px;
+  height: 18px;
+  margin: 0 0 0 5px;
+  fill: white;
+}
+
 .dropdown .drop-btn {
   display: flex;
   align-items: center;
@@ -70,6 +78,9 @@
 
   &:hover {
     color: $mcbs-yellow;
+    .navbar-chevron {
+      fill: $mcbs-yellow;
+    }
   }
 
   img {
@@ -78,6 +89,7 @@
     width: 15px;
   }
 }
+
 
 .dropdown-content {
   display: none;

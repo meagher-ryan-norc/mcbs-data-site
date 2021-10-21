@@ -23,12 +23,16 @@ layout: navbar-footer.njk
           <ul class='splide__list'>
             {% for chart in collections.sortedCovid %}
             <li class='splide__slide'>
-              <img src='/img/carousel/preventive.jpg'>
+              <img src='/img/carousel/{{chart.fileSlug}}.jpg'>
               <a class='slide__link' href="{{ chart.url }}">
                 <div class='slide__info'>
                   <h4>{{ chart.data.title }}</h4>
                   <p>{{ chart.data.description }}</p>
-                  <p class='slide__info__explore'>Explore data</p>
+                  <p class='slide__info__explore'>Explore data
+                    <svg class='slide__info__explore__arrow'>
+                      <use href='#rightarrow'/>
+                    </svg>
+                  </p>
                 </div>
               </a>
             </li>
@@ -49,12 +53,16 @@ layout: navbar-footer.njk
           <ul class='splide__list'>
             {% for chart in collections.sortedPuf %}
             <li class='splide__slide'>
-              <img src='/img/carousel/preventive.jpg'>
+              <img src='/img/carousel/{{chart.fileSlug}}.jpg'>
               <a class='slide__link' href="{{ chart.url }}">
                 <div class='slide__info'>
                   <h4>{{ chart.data.title }}</h4>
                   <p>{{ chart.data.description }}</p>
-                  <p class='slide__info__explore'>Explore data</p>
+                  <p class='slide__info__explore'>Explore data
+                    <svg class='slide__info__explore__arrow'>
+                      <use href='#rightarrow'/>
+                    </svg>
+                  </p>
                 </div>
               </a>
             </li>
