@@ -5,4 +5,4 @@ order: 1
 iframe: /#
 ---
 
-Preventative behavior iframe goes here
+Preventive behavior iframe goes here
