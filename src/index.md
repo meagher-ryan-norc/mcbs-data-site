@@ -1,5 +1,5 @@
 ---
-title: Medicare Currenty Beneficiary Survey
+title: Medicare Current Beneficiary Survey Interactive Data Tools
 layout: home.njk
 hed: Tools designed to aid in administering, monitoring, & evaluating the Medicare program
 covidHed: Explore the impact of COVID-19 on Medicare beneficiaries
