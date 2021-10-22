@@ -29,6 +29,27 @@
   }
 
   &__link {
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    background-color: $mcbs-yellow;
+    padding: 1rem 3rem;
+    margin: 1rem 0;
+    border-radius: 6px;
+    transition: all 0.5s ease;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.4);
+
+    &:hover {
+      text-decoration: underline;
+      background-color: $mcbs-dark-yellow;
+    }
+  }
+
+  &__oldlink {
     font-weight: 600;
     text-transform: uppercase;
     font-size: 20px;
@@ -37,13 +58,6 @@
     text-decoration: none;
     &:hover {
       text-decoration: underline;
-    }
-
-    &__chevron{
-      width: 16px;
-      height: 16px;
-      margin: 0 0 0 4px;
-      fill: $mcbs-yellow;
     }
   }
 }

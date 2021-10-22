@@ -6,7 +6,6 @@ footerText: The MCBS is a continuous, multi-purpose longitudinal survey represen
 footerLink: "Explore"
 ---
 
-
 <div class='navbar'>
   <div class='nav-left'>
     <a href='/'>
@@ -46,11 +45,13 @@ footerLink: "Explore"
 </div>
 {{ content | safe }}
 <div class='footer-top'>
+  <div class='footer-top__social'>
+    {% include 'components/social.njk' %}
+  </div>
   <h2 class='footer-top__label'>{{footerLabel}}</h2>
   <h3 class='footer-top__hed'>{{footerHed}}</h3>
   <p class='footer-top__text'>{{footerText}}</p>
-  <a class='footer-top__link' href='/about/mcbs'>{{footerLink}}<svg class='footer-top__link__chevron'><use href='#rightchevron'/></svg>
-  </a>
+  <a class='footer-top__link' href='https://www.norc.org/Research/Projects/Pages/the-medicare-current-beneficiary-survey-.aspx'>{{footerLink}}</a>
 </div>
 <div class='footer-bottom'>
   <a href='#'>

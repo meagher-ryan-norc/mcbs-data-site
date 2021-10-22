@@ -40,6 +40,14 @@
   padding: 2rem 5vw;
 }
 
+.home-container__sharing {
+  p {
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+}
+
 .hero-img {
   background-color: white;
   border-radius: 20px;
@@ -92,7 +100,7 @@
 
 #carousel-container {
   background-color: $mcbs-background-gray;
-  padding: 8rem 0 2rem 5vw;
+  padding: 11rem 0 2rem 5vw;
 }
 
 .carousel-flex {

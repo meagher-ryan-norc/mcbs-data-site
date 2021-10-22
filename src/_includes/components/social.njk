@@ -1,0 +1,42 @@
+{% macro social_icon(network) %}
+	<li class='network network--{{ network.slug|lower }}'>
+		<a rel="noopener" target="_blank" href="{{ network.url }}" aria-label="Share this on {{ network.network }}">
+			<svg class='network__icon' viewbox="0 0 30 30">
+				<use xlink:href="#{{ network.slug|lower }}"/>
+			</svg>
+			<span class="sr-only">Share this on {{ network.network }} </span>
+		</a>
+	</li>
+{% endmacro %}
+
+{% set target_url = 'https://mcbs-interactives.norc.org/' %}
+
+{% set networks = {
+	"facebook":{
+		"network":"Facebook",
+		"url":"https://www.facebook.com/sharer.php?u=" + target_url,
+		"slug":"facebook"
+	},
+	"twitter":{
+		"network":"Twitter",
+		"url":"https://twitter.com/share?url=" + target_url,
+		"slug":"twitter"
+	},
+  "linkedin":{
+    "network":"LinkedIn",
+		"url":"https://www.linkedin.com/sharing/share-offsite/?url=" + target_url,
+		"slug":"linkedin"
+  },
+	"email":{
+		"network":"Email",
+		"url":"mailto:?subject=Charts from Medicare Current Beneficiary Survey data" ~ "&body=Interested in learning more about the health and well-being of the Medicare population, including the impact of COVID-19 and differences by year? Explore this dynamic tool using Medicare Current Beneficiary Survey (MCBS) data." ~ target_url,
+		"slug":"email"
+	}
+}%}
+
+<ul class='social-networks social-networks--share'>
+    {{ social_icon(networks['twitter']) }}
+    {{ social_icon(networks['facebook']) }}
+    {{ social_icon(networks['linkedin']) }}
+    {{ social_icon(networks['email']) }}
+</ul>
