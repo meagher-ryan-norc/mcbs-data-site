@@ -79,5 +79,13 @@ layout: navbar-footer.njk
 
   <div class='home-container' id='explore'>
     <h2 class='homepage-label homepage-label__blue'>Search MCBS data tools</h2>
+    <form class='search-box'>
+      <input type="text" class="search-box__input" placeholder="Search..." maxlength="25">
+      <button class='search-box__button' type='submit'>Search</button>
+    </form>
+    <div class='search-results'>
+      <p id='search-number' style='display:none;'>Your search returned no results</p>
+      <ul class='search-results__list'></ul>
+    </div>
   </div>
 </div>

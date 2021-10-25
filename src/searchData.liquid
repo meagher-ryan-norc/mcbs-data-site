@@ -1,7 +1,7 @@
 ---
-permalink: searchData.json
+permalink: /js/searchData.js
 ---
-[
+const searchArr = [
   {% for post in collections.sortedCovid %}{
     "title":"{{post.data.title}}",
     "desc":"{{post.data.description}}",
