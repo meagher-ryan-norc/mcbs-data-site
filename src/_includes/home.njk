@@ -7,10 +7,10 @@ layout: navbar-footer.njk
     <h1>{{hed}}</h1>
     <div class='hero-img'>
       <img src='/img/chart-screencap.png'>
-      <a href='/covid-data/preventive/'><span>EXPLORE DATA TOOLS</span></a>
+      <a href='/puf-data/insurance/'><span>EXPLORE DATA TOOLS</span></a>
     </div>
     <div class='home-container__sharing'>
-      <p>Share our data tools at</p>
+      <p>Share our data tools</p>
       {% include 'components/social.njk' %}
     </div>
   </div>
@@ -79,7 +79,7 @@ layout: navbar-footer.njk
 
   <div class='home-container' id='explore'>
     <h2 class='homepage-label homepage-label__blue'>Search MCBS data tools</h2>
-    <form class='search-box'>
+    <form autocomplete='off' class='search-box'>
       <input type="text" class="search-box__input" placeholder="Search..." maxlength="25">
       <button class='search-box__button' type='submit'>Search</button>
     </form>

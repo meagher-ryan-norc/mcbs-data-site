@@ -62,7 +62,7 @@ if (document.querySelector('.search-box')) {
     })
 
     if (filteredSearch.length === 0) {
-      resultNumber.innerText = "Your search returned no results.";
+      resultNumber.innerText = "Sorry, no results could be found for your search. Please try another search, or explore the MCBS public use files, questionnaires, and data user documentation to see if MCBS data on the topic are available outside of the curated MCBS Interactives Data Tools.";
     } else if (filteredSearch.length === 1) {
       resultNumber.innerText = "Your search returned 1 result.";
     } else {
@@ -90,6 +90,14 @@ function renderSearch(resultArr) {
 
   document.querySelector(".search-results__list").innerHTML = htmlString;
 }
+
+//search autocomplete
+const allKeywords = searchArr.reduce((acc, el) => {
+  return acc.concat(el.keywords.split(', '));
+}, []);
+
+const uniqueKeywords = Array.from(new Set(allKeywords)).sort();
+console.log(uniqueKeywords);
 
 //document load init
 document.addEventListener('DOMContentLoaded', function(){
