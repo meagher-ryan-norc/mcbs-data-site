@@ -130,6 +130,7 @@ inputBox.onkeyup = (e) => {
 function selectAutocomplete(element) {
   let selectData = element.textContent;
   inputBox.value = selectData;
+  document.querySelector('.search').dispatchEvent(new Event('submit'));
   searchContainer.classList.remove('active');
 }
 
