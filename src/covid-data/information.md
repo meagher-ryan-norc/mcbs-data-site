@@ -2,7 +2,7 @@
 title: Information about COVID-19
 description: Investigate the different sources Medicare beneficiaries relied on for information about COVID-19.
 order: 6
-keywords: guidance, guidelines, provider, doctor, social support, social support network, news, internet, social media, government, chronic, coronavirus, sex, gender, age, income, race, ethnicity, language, english, dual, dual eligible, smoking, smoker, tobacco, immune system
+keywords: Guidance, Guidelines, Provider, Doctor, Social support, Social support network, News, Internet, Social media, Government, Chronic, Coronavirus, Sex, Gender, Age, Income, Race, Ethnicity, Language, English, Dual, Dual eligible, Smoking, Smoker, Tobacco, Immune system
 iframe: /#
 ---
 

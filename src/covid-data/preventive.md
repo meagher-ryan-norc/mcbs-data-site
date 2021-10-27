@@ -2,7 +2,7 @@
 title: Preventive Behaviors
 description: Explore how Medicare beneficiaries changed their health behaviors during the COVID-19 pandemic.
 order: 1
-keywords: preventive, preventative, face mask, mask, quarantine, social distancing, social distance, isolation, guidance, guidelines, safety, supplies, provider, doctor, chronic, coronavirus, sex, gender, age, income, race, ethnicity, language, english, dual, dual eligible, smoking, smoker, tobacco, immune system
+keywords: Preventive, Preventative, Face mask, Mask, Quarantine, Social distancing, Social distance, Isolation, Guidance, Guidelines, Safety, Supplies, Provider, Doctor, Chronic, Coronavirus, Sex, Gender, Age, Income, Race, Ethnicity, Language, English, Dual, Dual eligible, Smoking, Smoker, Tobacco, Immune system
 iframe: /#
 ---
 

@@ -2,7 +2,7 @@
 title: Insurance Coverage
 description: Explore differences in health insurance coverage across Medicare beneficiaries by year.
 order: 1
-keywords: insurance, coverage, private, employer, supplemental, fee-for-service, fee for service, medicare advantage, ma, part a, part b, sex, gender, age, income, race, ethnicity, education
+keywords: Insurance, Coverage, Private, Employer, Supplemental, Fee-for-service, Fee for service, Medicare Advantage, MA, Part A, Part B, Sex, Gender, Age, Income, Race, Ethnicity, Education
 iframe: /#
 ---
 
