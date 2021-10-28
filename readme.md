@@ -29,7 +29,7 @@ description: A simple way to add data to a page.
 ---
 ```
 
-Layouts may be chained, for example, all of the layouts used for pages are chained to `navbar-footer.njk` which has the navbar and footer on it, as well as the rest of the surrounding overall html (`head` and `body` tags, etc) for the page.
+Layouts may be chained, or extended using [Nunjucks template inheritance](https://mozilla.github.io/nunjucks/templating.html#template-inheritance). For example, `base.njk` has the overall architecture for every site page, and the ohter layouts are connected to it to get the head, navbar, footer, etc.
 
 Eleventy takes these markdown files, front matter, and layouts and builds the entire static site in the `public` folder.
 
