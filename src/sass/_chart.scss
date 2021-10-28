@@ -1,0 +1,70 @@
+.chart-nav {
+  display: flex;
+}
+
+.chart-nav__container {
+  width: 50%;
+  padding: 2rem 1rem;
+  background: $mcbs-lite-gray;
+  color: $mcbs-gray;
+  text-decoration: none;
+  transition: all 0.5s ease;
+
+  h4 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    letter-spacing: 4px;
+  }
+
+  .arrow {
+    width: 28px;
+    height: 28px;
+    fill: $mcbs-gray;
+    transform: translate(0,4px);
+    transition: all 0.5s ease;
+  }
+  &--puf:hover {
+    background: $mcbs-green;
+    color: white;
+    text-decoration: underline;
+
+    .arrow {
+      fill: white;
+      transform: rotate(90deg) translate(4px,0);
+    }
+
+  }
+
+  &--covid:hover {
+    background: $mcbs-yellow;
+    color: $mcbs-blue;
+    text-decoration: underline;
+
+    .arrow {
+      fill: $mcbs-blue;
+      transform: rotate(90deg) translate(4px,0);
+    }
+  }
+
+  &--covid--active {
+    background: $mcbs-yellow;
+    color: $mcbs-blue;
+
+    .arrow {
+      fill: $mcbs-blue;
+      transform: rotate(90deg) translate(4px,0);
+    }
+
+  }
+  &--puf--active {
+    background: $mcbs-green;
+    color: white;
+
+    .arrow {
+      fill: white;
+      transform: rotate(90deg) translate(4px,0);
+    }
+  }
+}
