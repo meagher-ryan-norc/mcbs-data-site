@@ -1,6 +1,6 @@
 ---
 title: "Contact the MCBD"
-layout: "base.njk"
+layout: "default.njk"
 ---
 
 Contact information

@@ -1,0 +1,37 @@
+<div class='navbar'>
+  <div class='nav-left'>
+    <a href='/'>
+      <div class='nav-logo'>
+        <img src='/img/mcbs-logo-white.png'>
+      </div>
+    </a>
+    <p class='nav-title'>MCBS Interactives</p>
+  </div>
+  <div class='nav-right'>
+    <a href='/'>Home</a>
+    <div class='dropdown'>
+      <button class='drop-btn' id='about-btn' onclick="navDropdown('about')">About
+        <svg class='navbar-chevron'>
+          <use href='#downchevron'/>
+        </svg>
+      </button>
+      <div class='dropdown-content' id='aboutDropdown'>
+        {% for page in collections.about %}
+        <a href="{{ page.url }}">{{ page.data.title }}</a>
+        {% endfor %}
+      </div>
+    </div>
+    <div class='dropdown'>
+      <button class='drop-btn' id='tools-btn' onclick="navDropdown('tools')">Data Tools
+        <svg class='navbar-chevron'>
+          <use href='#downchevron'/>
+        </svg>
+      </button>
+      <div class='dropdown-content' id='toolsDropdown'>
+        <a href="/covid-data/preventive/">COVID-19 Data Tool</a>
+        <a href="/puf-data/insurance/">Survey File PUF Data Tool</a>
+      </div>
+    </div>
+    <a href='/contact/'>Contact Us</a>
+  </div>
+</div>

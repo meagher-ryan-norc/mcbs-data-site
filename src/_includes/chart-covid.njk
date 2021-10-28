@@ -1,7 +1,6 @@
----
-layout: navbar-footer.njk
----
+{% extends "base.njk" %}
 
+{% block content %}
 <div class='chart-nav'>
   <div class='chart-nav__container chart-nav__container--covid--active'>
     <h4>COVID-19 DATA TOOL
@@ -39,3 +38,4 @@ layout: navbar-footer.njk
     <iframe frameborder="0" class="rshinyframe" src="{{iframe}}" title="daily life iframe" style="border: none; width: 100%;"></iframe>
   </div>
 </div>
+{% endblock %}
