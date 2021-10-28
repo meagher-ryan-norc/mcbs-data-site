@@ -94,35 +94,38 @@ function renderSearch(resultArr) {
 }
 
 // search autocomplete
-const allKeywords = searchArr.reduce((acc, el) => {
-  return acc.concat(el.keywords.split(', '));
-}, []);
-const uniqueKeywords = Array.from(new Set(allKeywords)).sort();
+if (document.querySelector('.search')) {
 
-const searchContainer = document.querySelector(".search");
-const inputBox = searchContainer.querySelector("input");
-const autocompleteBox = searchContainer.querySelector(".search__autocomplete");
+  const allKeywords = searchArr.reduce((acc, el) => {
+    return acc.concat(el.keywords.split(', '));
+  }, []);
+  const uniqueKeywords = Array.from(new Set(allKeywords)).sort();
 
-inputBox.onkeyup = (e) => {
-  if (e.key != "Enter"){
-    let userInput = e.target.value;
-    let filteredArr = [];
-    if (userInput) {
-      filteredArr = uniqueKeywords.filter((keyword) => {
-        return keyword.toLowerCase().startsWith(userInput.toLowerCase());
-      }).map((keyword) => {
-        const keywordEl = `<li>` + keyword + `</li>`;
-        return keywordEl;
-      });
-      console.log(filteredArr);
-      searchContainer.classList.add('active');
-      renderAutocomplete(filteredArr, autocompleteBox);
-      let autocompleteList = autocompleteBox.querySelectorAll('li');
-      for (let i = 0; i < autocompleteList.length; i++){
-        autocompleteList[i].setAttribute("onclick", "selectAutocomplete(this)");
+  const searchContainer = document.querySelector(".search");
+  const inputBox = searchContainer.querySelector("input");
+  const autocompleteBox = searchContainer.querySelector(".search__autocomplete");
+
+  inputBox.onkeyup = (e) => {
+    if (e.key != "Enter"){
+      let userInput = e.target.value;
+      let filteredArr = [];
+      if (userInput) {
+        filteredArr = uniqueKeywords.filter((keyword) => {
+          return keyword.toLowerCase().startsWith(userInput.toLowerCase());
+        }).map((keyword) => {
+          const keywordEl = `<li>` + keyword + `</li>`;
+          return keywordEl;
+        });
+        console.log(filteredArr);
+        searchContainer.classList.add('active');
+        renderAutocomplete(filteredArr, autocompleteBox);
+        let autocompleteList = autocompleteBox.querySelectorAll('li');
+        for (let i = 0; i < autocompleteList.length; i++){
+          autocompleteList[i].setAttribute("onclick", "selectAutocomplete(this)");
+        }
+      } else {
+        searchContainer.classList.remove('active');
       }
-    } else {
-      searchContainer.classList.remove('active');
     }
   }
 }

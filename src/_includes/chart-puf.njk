@@ -20,5 +20,18 @@ layout: navbar-footer.njk
 </div>
 
 <div class='chart-main'>
-  <h3>{{title}} chart goes here</h3>
+  <div class='chart-dropdown'>
+    <h3 class='chart-dropdown__title'>{{title}}
+      <svg class='chevron'>
+        <use href='#rightchevron'/>
+      </svg>
+    </h3>
+    <div class='chart-dropdown__content'>
+      {% for chart in collections.sortedPuf %}
+        {% if chart.data.title != title %}
+        <a href="{{ chart.url }}">{{chart.data.title}}</a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
 </div>
