@@ -84,7 +84,11 @@ layout: navbar-footer.njk
         <input type='text' placeholder='Type to search ...'>
         <ul class='search__autocomplete'>
         </ul>
-        <button type='submit' class='search__icon'>S</button>
+        <button type='submit' class='search__icon'>
+          <svg class='search__icon__svg'>
+            <use href='#searchIcon'/>
+          </svg>
+        </button>
       </form>
     </div>
     <div class='search-results'>

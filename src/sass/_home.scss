@@ -130,13 +130,6 @@
   width: 77%;
 }
 
-#explore {
-  background-color: $mcbs-yellow;
-  text-align: center;
-  padding: 2rem 5vw;
-}
-
-
 .splide {
   width: 76%;
   height: 400px;
@@ -222,6 +215,51 @@
   fill: $mcbs-yellow;
 }
 
+#explore {
+  background-image: url('../img/hand-wash.png');
+  background-color: $mcbs-yellow;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 2rem 5vw;
+}
+
+.search-results__list {
+  list-style: none;
+  padding: 0;
+
+  &__item {
+    text-align: left;
+    margin: 1rem auto;
+    width: 65%;
+    min-width: 280px;
+    max-width: 600px;
+    border-radius: 6px;
+    background: rgba(255,255,255,0.5);
+    padding: 1rem;
+
+    a {
+      text-decoration: none;
+      color: black;
+      justify-content: space-between;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    h4 {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 0 0 1rem 0;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+}
+
 .search-wrapper {
   width: 70%;
   max-width: 450px;
@@ -264,10 +302,14 @@
     right: 0;
     text-align: center;
     font-size: 20px;
-    background: none;
+    background: $mcbs-blue;
     border: none;
-    color: black;
     cursor: pointer;
+    border-radius: 6px;
+
+    &:hover {
+      background: $mcbs-dark-blue;
+    }
   }
 
   &__autocomplete {
@@ -278,7 +320,7 @@
     pointer-events: none;
     position: absolute;
     background: white;
-    opacity: 0.85;
+    opacity: 0.9;
     top: 60px;
     width: 100%;
     border-radius: 6px;
@@ -304,4 +346,11 @@
 
 .search.active .search__autocomplete li {
   display: block;
+}
+
+.search__icon__svg {
+  width: 22px;
+  height: 22px;
+  fill: white;
+  transform: translate(0, 3px);
 }
