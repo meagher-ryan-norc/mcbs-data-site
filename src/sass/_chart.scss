@@ -99,6 +99,16 @@
     padding: 0 0 0.5rem 0;
   }
 
+
+  &:hover {
+    .chart-dropdown__content {
+      display: block;
+    }
+    .chevron {
+      transform: rotate(0deg);
+    }
+  }
+
   &__content {
     display: none;
     position: absolute;
@@ -119,20 +129,20 @@
       display: block;
       font-size: 18px;
       text-decoration: none;
-
-      &:hover {
-        background: $mcbs-yellow;
-        color: $mcbs-blue;
-      }
     }
   }
 
-  &:hover {
-    .chart-dropdown__content {
-      display: block;
+  &--covid {
+    a:hover {
+      background: $mcbs-yellow;
+      color: $mcbs-blue;
     }
-    .chevron {
-      transform: rotate(0deg);
+  }
+
+  &--puf {
+    a:hover {
+      background: $mcbs-green;
+      color: white;
     }
   }
 }
