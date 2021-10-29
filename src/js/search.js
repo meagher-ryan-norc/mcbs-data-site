@@ -15,11 +15,12 @@ if (document.querySelector('.search')) {
         page.keywords.toLowerCase().includes(searchStr))
       })
       if (filteredSearch.length === 0) {
-        resultNumber.innerText = "Sorry, no results could be found for your search. Please try another search, or explore the MCBS public use files, questionnaires, and data user documentation to see if MCBS data on the topic are available outside of the curated MCBS Interactives Data Tools.";
+        resultNumber.innerHTML = `<p>Sorry, no results could be found for your search. Please try another search, or explore the MCBS public use files, questionnaires, and data user documentation to see if MCBS data on the topic are available outside of the curated MCBS Interactives Data Tools.</p>
+        <p><a href='https://www.norc.org/Research/Projects/Pages/the-medicare-current-beneficiary-survey-.aspx'>More on the MCBS</a></p>`;
       } else if (filteredSearch.length === 1) {
-        resultNumber.innerText = "Your search returned 1 result.";
+        resultNumber.innerHTML = "<p>Your search returned 1 result.</p>";
       } else {
-        resultNumber.innerText = `Your search returned ${filteredSearch.length} results.`
+        resultNumber.innerHTML = `<p>Your search returned ${filteredSearch.length} results.</p>`
       }
       resultNumber.style.display = "block";
       renderSearch(filteredSearch);
@@ -56,7 +57,7 @@ const autocompleteBox = searchContainer.querySelector(".search__autocomplete");
 
 inputBox.onkeyup = (e) => {
   if (e.key != "Enter"){
-    let userInput = e.target.value;
+    const userInput = e.target.value;
     let filteredArr = [];
     if (userInput) {
       filteredArr = uniqueKeywords.filter((keyword) => {
@@ -68,7 +69,7 @@ inputBox.onkeyup = (e) => {
       console.log(filteredArr);
       searchContainer.classList.add('active');
       renderAutocomplete(filteredArr, autocompleteBox);
-      let autocompleteList = autocompleteBox.querySelectorAll('li');
+      const autocompleteList = autocompleteBox.querySelectorAll('li');
       for (let i = 0; i < autocompleteList.length; i++){
         autocompleteList[i].setAttribute("onclick", "selectAutocomplete(this)");
       }
@@ -79,7 +80,7 @@ inputBox.onkeyup = (e) => {
 }
 
 function selectAutocomplete(element) {
-  let selectData = element.textContent;
+  const selectData = element.textContent;
   inputBox.value = selectData;
   document.querySelector('.search').dispatchEvent(new Event('submit'));
   searchContainer.classList.remove('active');

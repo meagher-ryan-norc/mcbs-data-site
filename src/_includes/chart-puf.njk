@@ -3,22 +3,16 @@
 {% block content %}
 <div class='chart-nav'>
   <a href='/covid-data/preventive' class='chart-nav__container chart-nav__container--covid'>
-    <h4>COVID-19 DATA TOOL
-      <svg class='arrow'>
-        <use href='#rightarrow'/>
-      </svg>
+    <h4>COVID-19 DATA TOOL<svg class='arrow'><use href='#rightarrow'/></svg>
     </h4>
   </a>
   <div class='chart-nav__container chart-nav__container--puf--active'>
-    <h4>SURVEY FILE PUF DATA TOOL
-      <svg class='arrow'>
-        <use href='#rightarrow'/>
-      </svg>
+    <h4>SURVEY FILE PUF DATA TOOL<svg class='arrow'><use href='#rightarrow'/></svg>
     </h4>
   </div>
 </div>
 
-<div class='chart-main'>
+<main class='chart-main'>
   <div class='chart-dropdown chart-dropdown--puf'>
     <h3 class='chart-dropdown__title'>{{title}}
       <svg class='chevron'>
@@ -37,5 +31,5 @@
   <div class='iframe-container'>
     <iframe frameborder="0" class="rshinyframe" src="{{iframe}}" title="daily life iframe" style="border: none; width: 100%;"></iframe>
   </div>
-</div>
+</main>
 {% endblock %}

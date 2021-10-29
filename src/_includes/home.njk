@@ -1,7 +1,7 @@
 {% extends "base.njk" %}
 
 {% block content %}
-<div class='home-main'>
+<main class='home-main'>
   <div class='home-container' id='hero'>
     <h1>{{hed}}</h1>
     <div class='hero-img'>
@@ -91,11 +91,11 @@
       </form>
     </div>
     <div class='search-results'>
-      <p id='search-number' style='display:none;'>Your search returned no results</p>
+      <div id='search-number' style='display:none;'></div>
       <ul class='search-results__list'></ul>
     </div>
   </div>
-</div>
+</main>
 {% endblock %}
 
 {% block scripts %}
