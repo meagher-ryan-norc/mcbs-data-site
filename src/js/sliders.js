@@ -44,6 +44,12 @@ function initPanels() {
     panelLinks[i].onmouseout = function(){
       setPanelHeight(panel);
     };
+    panelLinks[i].onfocus = function(){
+      panel.style.bottom = '0px';
+    }
+    panelLinks[i].onblur = function(){
+      setPanelHeight(panel);
+    };
   }
 }
 

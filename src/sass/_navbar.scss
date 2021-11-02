@@ -17,12 +17,13 @@
   align-items: center;
   justify-content: flex-end;
 
-  a {
+  .nav__link {
     font-weight: 700;
     font-size: 16px;
     text-decoration: none;
     color: white;
     margin: 0 0 0 2rem;
+    padding: 1px 6px;
 
     &:hover {
       color: $mcbs-yellow;
@@ -51,7 +52,7 @@
 
 .dropdown {
   float: left;
-  overflow: hidden;
+  // overflow: hidden;
   margin: 0 0 0 2rem;
 }
 
@@ -101,6 +102,14 @@
   z-index: 1;
 }
 
+.drop-btn:focus-visible, .nav__link:focus-visible {
+  outline: 1px solid white;
+  outline-offset: 5px;
+  border-radius: 3px;
+  color: $mcbs-yellow;
+}
+
+
 .dropdown-content a {
   float: none;
   color: black;
@@ -115,6 +124,11 @@
     color: black;
     background-color: $mcbs-yellow;
   }
+}
+
+.dropdown-content a:focus-visible {
+  color: black;
+  background-color: $mcbs-yellow;
 }
 
 .show {

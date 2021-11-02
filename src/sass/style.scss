@@ -26,6 +26,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+svg {
+  pointer-events: none;
+}
+
 .sr-only{
 	// Use this to hide elements from everything except screen readers.
   position: absolute;
