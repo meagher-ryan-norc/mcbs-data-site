@@ -25,19 +25,19 @@ aboutNav:
   <h2>More information on MCBS COVID-19 data</h2>
   <p>To learn more about the COVID-19 Community Supplements and how to appropriately analyze the data, see the following resources:</p>
   <div class='about__indent'>
-    <h3>Questionnaires</h3>
+    <h4>Questionnaires</h4>
     <p>Download the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Questionnaires'>MCBS COVID-19 Supplement Questionnaires.</a></p>
   </div>
   <div class='about__indent'>
-    <h3>Public Use File</h3>
+    <h4>Public Use File</h4>
     <p>Download the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/MCBS-Public-Use-File/index'>MCBS COVID-19 Supplement PUFs</a>, including the analytic weights, data user documentation, and codebook.</p>
   </div>
   <div class='about__indent'>
-    <h3>Limited Data Sets</h3>
+    <h4>Limited Data Sets</h4>
     <p>Download documentation for the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Codebooks'>MCBS LDS</a>, including the Data User’s Guides and Methodology Reports, and learn more about the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Files-for-Order/Data-Disclosures-Data-Agreements/DUA_-_NewLDS'>LDS DUA process</a>.</p>
   </div>
   <div class='about__indent'>
-    <h3>COVID-19 Supplement Estimates</h3>
+    <h4>COVID-19 Supplement Estimates</h4>
     <p>To view other estimates from MCBS COVID-19 Community Supplement data, check out the Summer 2020 Data Snapshot <a href='https://www.cms.gov/files/document/mcbs-covid-19-snapshot.pdf'>Infographic</a>, Fall 2020 Data Snapshot <a href='https://www.cms.gov/files/document/medicare-current-beneficiary-survey-covid-19-data-snapshot-infographic-fall-2020.pdf'>Infographic</a>, and Winter 2021 Data Snapshot <a href='https://www.cms.gov/files/document/medicare-current-beneficiary-survey-covid-19-data-snapshot-infographic-winter-2021.pdf'>Infographic</a>.</p>
     <p>To learn more, download the Summer 2020 <a href='https://www.cms.gov/files/document/medicare-current-beneficiary-survey-covid-19-infographic-methodology.pdf'>Infographic Methodology</a>, Fall 2020 <a href='https://www.cms.gov/files/document/medicare-current-beneficiary-survey-covid-19-data-snapshot-methodology-fall-2020.pdf'>Infographic Methodology</a>, and Winter 2021 <a href='https://www.cms.gov/files/document/medicare-current-beneficiary-survey-covid-19-data-snapshot-methodology-winter-2021.pdf'>Infographic Methodology</a>.</p>
   </div>

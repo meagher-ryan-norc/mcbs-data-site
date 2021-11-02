@@ -83,15 +83,16 @@
       font-size: 18px;
       margin: 1rem 0;
     }
+
+    h4 {
+      font-size: 18px;
+      margin: 0;
+    }
   }
 
   &__indent {
     padding: 0 2rem;
     margin: 0 0 2rem 0;
-
-    h3 {
-      margin: 0 !important;
-    }
 
     &--citation {
       background: $mcbs-lite-gray;
@@ -112,5 +113,77 @@
     margin: 1rem 0;
     line-height: 1.5em;
     font-size: 18px;
+  }
+}
+
+.about__table {
+  width: 80%;
+  margin: 0 auto 1rem auto;
+  text-align: center;
+  box-sizing: border-box;
+  border-collapse:collapse;
+
+  th {
+    border-bottom: 2px solid black;
+    padding: 5px;
+  }
+
+  td {
+    border-bottom: 1px solid $mcbs-gray;
+    padding: 10px;
+  }
+
+  tr:last-child td {
+    border-bottom: none;
+  }
+}
+
+@media all and (max-width: 565px) {
+  .about {
+    display: block;
+    width: 100%;
+
+    h1 {
+      font-size: 52px;
+    }
+
+    &__nav {
+      width: 100%;
+      position: relative;
+      top: 0;
+    }
+
+    &__text {
+      margin: 2rem 0 0 0;
+      width: 100%;
+    }
+    section {
+      p {
+        font-size: 16px;
+      }
+
+      h2 {
+        font-size: 24px;
+      }
+
+      h3, h4 {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 320px) {
+  section {
+    p {
+      font-size: 14px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+    h3, h4 {
+      font-size: 14px;
+    }
   }
 }
