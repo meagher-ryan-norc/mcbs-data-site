@@ -1,4 +1,4 @@
 {
-  "layout": "default.njk",
+  "layout": "about.njk",
   "tags": "about"
 }

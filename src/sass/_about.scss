@@ -1,0 +1,46 @@
+.about-main {
+  padding: 3rem 2rem;
+}
+
+.about {
+  margin: 0 auto;
+  max-width: 1080px;
+  width: 90%;
+  display: flex;
+  align-items: flex-start;
+
+  &__text {
+    width: 76%;
+  }
+
+  &__nav {
+    width: 20%;
+    min-width: 180px;
+    margin: 0 2rem 0 0;
+    position: sticky;
+    border-bottom: 2px solid $mcbs-gray;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+
+    a {
+      display: block;
+      font-size: 18px;
+      text-decoration: none;
+      font-weight: bold;
+      color: $mcbs-gray;
+      padding: 1rem;
+      border-top: 2px solid $mcbs-gray;
+      border-left: 2px solid $mcbs-gray;
+      border-right: 2px solid $mcbs-gray;
+
+      &:hover {
+        color: white;
+        background: $mcbs-blue;
+      }
+
+      &:focus-visible {
+        color: white;
+        background: $mcbs-blue;
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{% extends "base.njk" %}
+
+{% block content %}
+<main class='about-main'>
+  <div class='about'>
+    <nav class='about__nav'>
+      {% for item in aboutNav %}
+      <a href='{{item.link}}'>{{item.text}}</a>
+      {% endfor %}
+    </nav>
+    <div class='about__text'>
+      <h1>{{title}}</h1>
+      {{content | safe }}
+    </div>
+  </div>
+</main>
+{% endblock %}
