@@ -1,12 +1,15 @@
-const outdent = require('outdent');
-
 module.exports = function(eleventyConfig) {
+  let markdownIt = require("markdown-it");
+  let options = {
+    html: true
+  };
+  let markdownLib = markdownIt(options).disable('code');
+  eleventyConfig.setLibrary("md", markdownLib);
+
   eleventyConfig.addWatchTarget("./src/sass/");
   eleventyConfig.addPassthroughCopy("./src/css");
   eleventyConfig.addPassthroughCopy("./src/img");
   eleventyConfig.addPassthroughCopy("./src/js");
-
-
 
   //custom sorts for collections
   //filters could be added here as well
