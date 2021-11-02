@@ -53,7 +53,7 @@
 
   section {
     border-bottom: 1px solid $mcbs-gray;
-    padding: 2rem 0;
+    padding: 3rem 0 1rem 0;
 
     h2 {
       font-size: 28px;
@@ -63,7 +63,7 @@
     p {
       font-size: 18px;
       line-height: 1.5em;
-      margin: 0 0 2rem 0;
+      margin: 0 0 1.5rem 0;
     }
 
     a {
@@ -78,6 +78,11 @@
     &:last-child {
       border-bottom: none;
     }
+
+    h3 {
+      font-size: 18px;
+      margin: 1rem 0;
+    }
   }
 
   &__indent {
@@ -85,11 +90,6 @@
     margin: 0 0 2rem 0;
 
     h3 {
-      font-size: 18px;
-      margin: 0;
-    }
-
-    p {
       margin: 0 !important;
     }
 
@@ -97,13 +97,20 @@
       background: $mcbs-lite-gray;
       padding: 1rem 2rem;
       font-family:'Courier New', Courier, monospace;
+
+      p {
+        margin: 0 !important;
+      }
+    }
+
+    &__bold {
+      font-weight: bold;
     }
   }
 
   ul {
-    margin: 1rem 0 2rem 0;
+    margin: 1rem 0;
     line-height: 1.5em;
     font-size: 18px;
   }
-
 }
