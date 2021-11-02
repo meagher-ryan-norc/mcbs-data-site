@@ -1,6 +1,18 @@
 {% extends "base.njk" %}
 
 {% block content %}
+<div class='chart-nav'>
+  <a href='/covid-data/preventive' class='chart-nav__container chart-nav__container--covid'>
+    <h4>COVID-19 DATA TOOL<svg class='arrow'><use href='#rightarrow'/></svg>
+    </h4>
+  </a>
+  <a href='/puf-data/insurance/' class='chart-nav__container chart-nav__container--puf'>
+    <h4>SURVEY FILE PUF DATA TOOL<svg class='arrow'><use href='#rightarrow'/></svg>
+    </h4>
+  </a>
+</div>
+
+
 <main class='about-main'>
   <div class='about'>
     <nav class='about__nav'>
@@ -8,10 +20,10 @@
       <a href='{{item.link}}'>{{item.text}}</a>
       {% endfor %}
     </nav>
-    <div class='about__text'>
+    <article class='about__text'>
       <h1>{{title}}</h1>
       {{content | safe }}
-    </div>
+    </article>
   </div>
 </main>
 {% endblock %}

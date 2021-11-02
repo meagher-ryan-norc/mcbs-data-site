@@ -9,6 +9,12 @@
   display: flex;
   align-items: flex-start;
 
+  h1 {
+    font-weight: normal;
+    font-size: 60px;
+    margin: 0;
+  }
+
   &__text {
     width: 76%;
   }
@@ -18,6 +24,7 @@
     min-width: 180px;
     margin: 0 2rem 0 0;
     position: sticky;
+    top: 1rem;
     border-bottom: 2px solid $mcbs-gray;
     box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
 
@@ -43,4 +50,60 @@
       }
     }
   }
+
+  section {
+    border-bottom: 1px solid $mcbs-gray;
+    padding: 2rem 0;
+
+    h2 {
+      font-size: 28px;
+      margin: 0 0 1rem 0;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.5em;
+      margin: 0 0 2rem 0;
+    }
+
+    a {
+      font-weight: bold;
+      color: $mcbs-dark-blue;
+
+      &:hover {
+        color: $mcbs-gray;
+      }
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  &__indent {
+    padding: 0 2rem;
+    margin: 0 0 2rem 0;
+
+    h3 {
+      font-size: 18px;
+      margin: 0;
+    }
+
+    p {
+      margin: 0 !important;
+    }
+
+    &--citation {
+      background: $mcbs-lite-gray;
+      padding: 1rem 2rem;
+      font-family:'Courier New', Courier, monospace;
+    }
+  }
+
+  ul {
+    margin: 1rem 0 2rem 0;
+    line-height: 1.5em;
+    font-size: 18px;
+  }
+
 }
