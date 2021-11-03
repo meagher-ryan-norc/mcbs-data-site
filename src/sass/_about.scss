@@ -114,6 +114,10 @@
     line-height: 1.5em;
     font-size: 18px;
   }
+
+  li {
+    font-size: 18px;
+  }
 }
 
 .about__table {
@@ -135,6 +139,39 @@
 
   tr:last-child td {
     border-bottom: none;
+  }
+}
+
+//contact page
+
+.contact {
+  padding: 3rem 2rem;
+
+  &__container {
+    max-width: 1080px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+
+    h1 {
+      font-weight: normal;
+      font-size: 60px;
+      margin: 0 0 2rem 0;
+    }
+
+    p {
+      font-size: 20px;
+      margin: 2rem 0;
+    }
+
+    a {
+      color: $mcbs-dark-blue;
+      font-weight: bold;
+
+      &:hover {
+        color: $mcbs-gray;
+      }
+    }
   }
 }
 
@@ -169,12 +206,27 @@
       h3, h4 {
         font-size: 16px;
       }
+
+      li {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .contact__container {
+    width: 100%;
+    h1 {
+      font-size: 52px;
+    }
+
+    p {
+      font-size: 18px;
     }
   }
 }
 
 @media all and (max-width: 320px) {
-  section {
+  .about section {
     p {
       font-size: 14px;
     }
@@ -184,6 +236,20 @@
     }
     h3, h4 {
       font-size: 14px;
+    }
+
+    li {
+      font-size: 14px;
+    }
+  }
+
+  .contact__container {
+    h1 {
+      font-size: 42px;
+    }
+
+    p {
+      font-size: 16px;
     }
   }
 }
