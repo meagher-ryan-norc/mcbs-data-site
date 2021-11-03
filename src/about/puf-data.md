@@ -68,7 +68,9 @@ aboutNav:
   <p>The MCBS Survey File PUF Data Tool presents estimates from the 2016-2019 MCBS Survey File PUFs with appropriate weights. Estimates represent the population of beneficiaries who were ever enrolled in Medicare at any time during the calendar year.</p>
   <p>The Survey File PUF Data Tool is comprised of a series of dashboards related to Medicare beneficiaries’ health status, medical conditions, insurance coverage, and information on their access to and satisfaction with health care services. Estimates for various demographic and socioeconomic subgroups are also presented.</p>
   <p>The tool presents a visual approximation of the analysis; all conclusions should be verified through appropriate analysis of the publically available datasets.</p>
-  <h2 id='methodology'>Methodology</h2>
+</section>
+<section id='methodology'>
+  <h2>Methodology</h2>
   <h3>Criteria for Inclusion in the Tool</h3>
   <p>All estimates in the Survey File PUF Data Tool exclude beneficiaries for whom PUF data are missing for a given measure. Missing variable data, which encompass “Don’t Know”, “Not Ascertained”, and “Refused” responses, are excluded from both the numerator and denominator in the calculation of each measure.</p>
   <h3>Comparison to the MCBS Chartbook</h3>

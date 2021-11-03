@@ -51,7 +51,9 @@ aboutNav:
   <h2>About this tool</h2>
   <p>The MCBS COVID-19 Data Tool presents findings from the MCBS COVID-19 Summer 2020 Supplement PUF, MCBS COVID-19 Fall 2020 Supplement PUF, and MCBS COVID-19 Winter 2021 Supplement PUF. Estimates represent the population of beneficiaries who were continuously enrolled in Medicare from the beginning of 2020 and were alive, living in the community, and eligible and enrolled in Medicare at the time of the COVID-19 Summer 2020, Fall 2020, or Winter 2021 Supplement interviews.</p>
   <p>The COVID-19 Data Tool is comprised of a series of dashboards related to how COVID-19 has affected the lives of Medicare beneficiaries. In addition, estimates for different demographic subgroups and health factor status subgroups are also presented. The tool presents a visual approximation of the analysis; all conclusions should be verified through appropriate analysis of the publicly available datasets.</p>
-  <h2 id='methodology'>Methodology</h2>
+</section>
+<section id='methodology'>
+  <h2>Methodology</h2>
   <h3>Criteria for Inclusion in the Tool</h3>
   <p>The MCBS COVID-19 Data Tool incorporates questions and responses from the COVID-19 Summer 2020, Fall 2020, and Winter 2021 Supplement PUFs that meet certain inclusion criteria.</p>
   <p>Questions are included in the MCBS COVID-19 Data Tool if the question received enough valid responses to produce a reliable estimate. Read more about MCBS <a href='https://mcbs-interactives.norc.org/about.html#toc1-2-3'>analytical guidance</a> in the user tutorials.</p>
