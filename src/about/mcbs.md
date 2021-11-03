@@ -3,14 +3,19 @@ title: About the MCBS
 aboutNav:
   - text: "Background"
     link: "#background"
+    class: "scroll"
   - text: "Resources on the MCBS"
     link: "#resources"
+    class: "scroll"
   - text: "Recommended Citations"
     link: "#citations"
+    class: "scroll"
   - text: "About the COVID-19 Data Tool"
     link: "/about/covid-data"
+    class: "page"
   - text: "About the Survey PUF Data Tool"
     link: "/about/puf-data"
+    class: "page"
 ---
 
 <section id='background'>

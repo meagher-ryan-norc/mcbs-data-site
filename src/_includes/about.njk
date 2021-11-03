@@ -17,7 +17,7 @@
   <div class='about'>
     <nav class='about__nav'>
       {% for item in aboutNav %}
-      <a href='{{item.link}}'>{{item.text}}</a>
+      <a class='about__nav__link about__nav__link--{{item.class}}' href='{{item.link}}'>{{item.text}}</a>
       {% endfor %}
     </nav>
     <article class='about__text'>
@@ -26,4 +26,9 @@
     </article>
   </div>
 </main>
+{% endblock %}
+
+{% block scripts %}
+{{ super() }}
+<script src='/js/aboutScroll.js'></script>
 {% endblock %}

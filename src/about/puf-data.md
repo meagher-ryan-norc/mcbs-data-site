@@ -3,14 +3,19 @@ title: "About the Survey File PUF Data"
 aboutNav:
   - text: "Background"
     link: "#background"
+    class: "scroll"
   - text: "More Information on MCBS Survey File PUF Data"
     link: "#information"
+    class: "scroll"
   - text: "About This Tool"
     link: "#about"
+    class: "scroll"
   - text: "Methodology"
     link: "#methodology"
+    class: "scroll"
   - text: "How to Use This Tool"
     link: "#howtouse"
+    class: "scroll"
 ---
 
 

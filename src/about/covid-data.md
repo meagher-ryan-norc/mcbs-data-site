@@ -3,14 +3,19 @@ title: "About the COVID-19 Data"
 aboutNav:
   - text: "Background"
     link: "#background"
+    class: "scroll"
   - text: "More Information on MCBS COVID-19 Data"
     link: "#information"
+    class: "scroll"
   - text: "About This Tool"
     link: "#about"
+    class: "scroll"
   - text: "Methodology"
     link: "#methodology"
+    class: "scroll"
   - text: "How to Use This Tool"
     link: "#howtouse"
+    class: "scroll"
 ---
 
 
