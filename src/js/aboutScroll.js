@@ -6,8 +6,6 @@ for(let i = 0; i < scrollLinks.length; i++){
     event.preventDefault();
     const anchorText = event.target.href.split('#')[1];
     scrollToAnchor(anchorText);
-    // const anchor = document.getElementById(`${anchorText}`);
-    // anchor.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
   });
 }
 
