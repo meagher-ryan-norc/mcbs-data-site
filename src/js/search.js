@@ -34,7 +34,7 @@ function renderSearch(resultArr) {
   const htmlString = resultArr.map((result) => {
     return `
     <li class='search-results__list__item'>
-      <a href='${result.url}'>
+      <a href='${result.url}' target='_blank'>
         <h4>${result.title}</h4>
         <p>${result.desc}</p>
       </a>
