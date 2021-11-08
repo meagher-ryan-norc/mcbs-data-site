@@ -16,7 +16,7 @@
 <main class='about-main'>
   <div class='about'>
     <nav class='about__nav'>
-      <button class='about__nav__btn' id='about-btn' onclick='aboutDropdown()'>Contents</button>
+      <button class='about__nav__btn' id='about-contents-btn'>Contents</button>
       <div class='about__nav__list'>
         {% for item in aboutNav %}
         <a class='about__nav__list__link about__nav__list__link--{{item.class}}' href='{{item.link}}'>{{item.text}}</a>

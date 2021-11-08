@@ -10,24 +10,24 @@
   <div class='nav-right'>
     <a class='nav__link' href='/'>Home</a>
     <div class='dropdown'>
-      <button class='drop-btn' id='about-btn' onclick="navDropdown('about')">About
+      <button class='drop-btn' id='about-btn'">About
         <svg class='navbar-chevron'>
           <use href='#downchevron'/>
         </svg>
       </button>
-      <div class='dropdown-content' id='aboutDropdown'>
+      <div class='dropdown-content' id='about-btn-dropdown'>
         {% for page in collections.about %}
         <a href="{{ page.url }}">{{ page.data.title }}</a>
         {% endfor %}
       </div>
     </div>
     <div class='dropdown'>
-      <button class='drop-btn' id='tools-btn' onclick="navDropdown('tools')">Data Tools
+      <button class='drop-btn' id='tools-btn'">Data Tools
         <svg class='navbar-chevron'>
           <use href='#downchevron'/>
         </svg>
       </button>
-      <div class='dropdown-content' id='toolsDropdown'>
+      <div class='dropdown-content' id='tools-btn-dropdown'>
         <a href="/covid-data/preventive/">COVID-19 Data Tool</a>
         <a href="/puf-data/insurance/">Survey File PUF Data Tool</a>
       </div>
