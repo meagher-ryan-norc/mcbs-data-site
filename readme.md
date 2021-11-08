@@ -8,6 +8,8 @@ Run `npm install` to install eleventy, sass, and other relevant packages.
 
 `npm start` runs a local development server via Browsersync at `http://localhost:8080` and compiles code to a `public` folder. Changes to `src` files will recompile and auto-refresh in the browser.
 
+NOTE: The Content Security Policy must either include `'unsafe-inline'` in the `script-src` or temporarily commented out for Browsersync to auto-refresh the development server. 
+
 ## Development
 
 ### SRC vs PUBLIC
@@ -17,8 +19,6 @@ All development should take place in the `src` folder. When executing eleventy, 
 Ultimately, the `public` folder is what will be the static site as it lives online.
 
 ### Developing with Eleventy
-
-'npm start' will start up the development server. The dev server should automatically refresh on code updates/saves, but the Content Security Policy must be commented out for the auto-refresh to work.
 
 The site is built with markdown (`.md`) files representing each of the pages. Markdown files may include html code, as well as templated data from YAML front matter. Each markdown file, or page, is linked to a Nunjucks (`.njk`) layout file. Layout files live in the `_includes` folder.
 
