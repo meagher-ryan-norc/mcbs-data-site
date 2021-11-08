@@ -18,6 +18,8 @@ Ultimately, the `public` folder is what will be the static site as it lives onli
 
 ### Developing with Eleventy
 
+'npm start' will start up the development server. The dev server should automatically refresh on code updates/saves, but the Content Security Policy must be commented out for the auto-refresh to work.
+
 The site is built with markdown (`.md`) files representing each of the pages. Markdown files may include html code, as well as templated data from YAML front matter. Each markdown file, or page, is linked to a Nunjucks (`.njk`) layout file. Layout files live in the `_includes` folder.
 
 Both layouts and markdown files may contain YAML front matter, which is a section of code that is at the top of the file. It can contain relevant text and information which may then be templated into the page. Front matter looks like this:
