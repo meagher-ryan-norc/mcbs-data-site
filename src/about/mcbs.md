@@ -21,39 +21,39 @@ aboutNav:
 <section id='background'>
   <h2>Background</h2>
   <p>The Medicare Current Beneficiary Survey (MCBS) is a continuous, multi-purpose longitudinal survey representing the population of Medicare beneficiaries living in the United States. This survey is authorized by section 1875 (42 USC 139511) of the Social Security Act and is conducted by NORC at the University of Chicago (NORC) for the U.S. Department of Health and Human Services. The MCBS is sponsored by the Office of Enterprise Data and Analytics (OEDA) of the Centers for Medicare & Medicaid Services (CMS). The MCBS is designed to aid CMS in administering, monitoring, and evaluating the Medicare program, and is essential in providing important information on beneficiaries that is not otherwise collected through operational or administrative data from the Medicare program.</p>
-  <p>For more information about the MCBS, including unique features of the survey and the types of data available, see <a href='https://www.norc.org/Research/Projects/Pages/the-medicare-current-beneficiary-survey-.aspx'>NORC’s project page.</a></p>
+  <p>For more information about the MCBS, including unique features of the survey and the types of data available, see <a href='https://www.norc.org/Research/Projects/Pages/the-medicare-current-beneficiary-survey-.aspx' target='_blank'>NORC’s project page</a>.</p>
 </section>
 <section id='resources'>
   <h2>Resources on the MCBS</h2>
   <p>To access additional resources on the MCBS, check out the following links:</p>
   <div class='about__indent'>
-    <h4>Public use files</h4>
-    <p>To learn more about or download publicly available MCBS data, check out the Survey File or COVID-19 <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/MCBS-Public-Use-File'>Public Use Files</a> (PUFs).</p>
+    <h4>Public Use Files</h4>
+    <p>To learn more about or download publicly available MCBS data, check out the Survey File or COVID-19 <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/MCBS-Public-Use-File' target='_blank'>Public Use Files</a> (PUFs).</p>
   </div>
   <div class='about__indent'>
     <h4>Questionnaires</h4>
-    <p>Download the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Questionnaires'>MCBS Questionnaire Specifications.</a></p>
+    <p>Download the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Questionnaires' target='_blank'>MCBS Questionnaire Specifications.</a></p>
   </div>
   <div class='about__indent'>
     <h4>Data User Documentation</h4>
-    <p>For data user documentation, including codebooks and information about the survey design, sampling methodology, interviewing procedures, weighting, and more, check out the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Codebooks'>MCBS Data User’s Guides, Methodology Reports, and Frequently Asked Questions (FAQs).</a></p>
+    <p>For data user documentation, including codebooks and information about the survey design, sampling methodology, interviewing procedures, weighting, and more, check out the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Codebooks' target='_blank'>MCBS Data User’s Guides, Methodology Reports, and Frequently Asked Questions (FAQs).</a></p>
   </div>
   <div class='about__indent'>
-    <h4>Analytic Guidance</h4>
-    <p>For more information about using MCBS data and analytic guidance, check out the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Data-Briefs'>New and Advanced User Tutorials.</a></p>
+    <h4 id='analytical'>Analytic Guidance</h4>
+    <p>For more information about using MCBS data and analytic guidance, check out the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Data-Briefs' target='_blank'>New and Advanced User Tutorials.</a></p>
   </div>
   <div class='about__indent'>
     <h4>MCBS Estimates</h4>
     <p>To see MCBS estimates on various topics of interest, check out:</p>
     <ul>
-      <li><a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Data-Tables'>MCBS Chartbook</a>, published annually.</li>
-      <li><a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Data-Briefs'>MCBS Early Look</a>, published annually.</li>
-      <li><a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Data-Briefs'>MCBS Infographics and Data Briefs</a>, published periodically.</li>
+      <li><a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Data-Tables' target='_blank'>MCBS Chartbook</a>, published annually.</li>
+      <li><a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Data-Briefs' target='_blank'>MCBS Early Look</a>, published annually.</li>
+      <li><a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Data-Briefs' target='_blank'>MCBS Infographics and Data Briefs</a>, published periodically.</li>
     </ul>
   </div>
   <div class='about__indent'>
     <h4>Bibliographies</h4>
-    <p>To see how MCBS data have been studied in the past, check out the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Bibliography'>MCBS Bibliographies</a>.</p>
+    <p>To see how MCBS data have been studied in the past, check out the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Bibliography' target='_blank'>MCBS Bibliographies</a>.</p>
   </div>
   <div class='about__indent'>
     <h4>More Information About the Tools</h4>
@@ -62,7 +62,7 @@ aboutNav:
   </div>
 </section>
 <section id='citations'>
-  <h2>Recommended citations</h2>
+  <h2>Recommended Citations</h2>
   <p>To cite the overall MCBS Interactives website:</p>
   <div class='about__indent about__indent--citation'>
     <p>NORC at the University of Chicago. Medicare Current Beneficiary Survey (MCBS) Interactives. Last modified 2021. https://mcbs-interactives.norc.org.</p>

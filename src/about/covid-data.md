@@ -27,28 +27,28 @@ aboutNav:
   <p>In addition to standalone PUFs, data collected in the COVID-19 Summer 2020 and Fall 2020 Community Supplements were made available as part of the 2019 Survey File Limited Data Set (LDS). Similarly, data collected in the Winter 2021 Supplement will be made available as part of the 2020 Survey File LDS. LDS data are available with a DUA and are linkable to other data segments for analysis.</p>
 </section>
 <section id='information'>
-  <h2>More information on MCBS COVID-19 data</h2>
+  <h2>More Information on MCBS COVID-19 Data</h2>
   <p>To learn more about the COVID-19 Community Supplements and how to appropriately analyze the data, see the following resources:</p>
   <div class='about__indent'>
     <h4>Questionnaires</h4>
-    <p>Download the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Questionnaires'>MCBS COVID-19 Supplement Questionnaires.</a></p>
+    <p>Download the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Questionnaires' target='_blank'>MCBS COVID-19 Supplement Questionnaires</a>.</p>
   </div>
   <div class='about__indent'>
     <h4>Public Use File</h4>
-    <p>Download the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/MCBS-Public-Use-File/index'>MCBS COVID-19 Supplement PUFs</a>, including the analytic weights, data user documentation, and codebook.</p>
+    <p>Download the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/MCBS-Public-Use-File/index' target='_blank'>MCBS COVID-19 Supplement PUFs</a>, including the analytic weights, data user documentation, and codebook.</p>
   </div>
   <div class='about__indent'>
     <h4>Limited Data Sets</h4>
-    <p>Download documentation for the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Codebooks'>MCBS LDS</a>, including the Data User’s Guides and Methodology Reports, and learn more about the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Files-for-Order/Data-Disclosures-Data-Agreements/DUA_-_NewLDS'>LDS DUA process</a>.</p>
+    <p>Download documentation for the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Codebooks' target='_blank'>MCBS LDS</a>, including the Data User’s Guides and Methodology Reports, and learn more about the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Files-for-Order/Data-Disclosures-Data-Agreements/DUA_-_NewLDS' target='_blank'>LDS DUA process</a>.</p>
   </div>
   <div class='about__indent'>
     <h4>COVID-19 Supplement Estimates</h4>
-    <p>To view other estimates from MCBS COVID-19 Community Supplement data, check out the Summer 2020 Data Snapshot <a href='https://www.cms.gov/files/document/mcbs-covid-19-snapshot.pdf'>Infographic</a>, Fall 2020 Data Snapshot <a href='https://www.cms.gov/files/document/medicare-current-beneficiary-survey-covid-19-data-snapshot-infographic-fall-2020.pdf'>Infographic</a>, and Winter 2021 Data Snapshot <a href='https://www.cms.gov/files/document/medicare-current-beneficiary-survey-covid-19-data-snapshot-infographic-winter-2021.pdf'>Infographic</a>.</p>
-    <p>To learn more, download the Summer 2020 <a href='https://www.cms.gov/files/document/medicare-current-beneficiary-survey-covid-19-infographic-methodology.pdf'>Infographic Methodology</a>, Fall 2020 <a href='https://www.cms.gov/files/document/medicare-current-beneficiary-survey-covid-19-data-snapshot-methodology-fall-2020.pdf'>Infographic Methodology</a>, and Winter 2021 <a href='https://www.cms.gov/files/document/medicare-current-beneficiary-survey-covid-19-data-snapshot-methodology-winter-2021.pdf'>Infographic Methodology</a>.</p>
+    <p>To view other estimates from MCBS COVID-19 Community Supplement data, check out the Summer 2020 Data Snapshot <a href='https://www.cms.gov/files/document/mcbs-covid-19-snapshot.pdf' target='_blank'>Infographic</a>, Fall 2020 Data Snapshot <a href='https://www.cms.gov/files/document/medicare-current-beneficiary-survey-covid-19-data-snapshot-infographic-fall-2020.pdf' target='_blank'>Infographic</a>, and Winter 2021 Data Snapshot <a href='https://www.cms.gov/files/document/medicare-current-beneficiary-survey-covid-19-data-snapshot-infographic-winter-2021.pdf' target='_blank'>Infographic</a>.</p>
+    <p>To learn more, download the Summer 2020 <a href='https://www.cms.gov/files/document/medicare-current-beneficiary-survey-covid-19-infographic-methodology.pdf' target='_blank'>Infographic Methodology</a>, Fall 2020 <a href='https://www.cms.gov/files/document/medicare-current-beneficiary-survey-covid-19-data-snapshot-methodology-fall-2020.pdf' target='_blank'>Infographic Methodology</a>, and Winter 2021 <a href='https://www.cms.gov/files/document/medicare-current-beneficiary-survey-covid-19-data-snapshot-methodology-winter-2021.pdf' target='_blank'>Infographic Methodology</a>.</p>
   </div>
 </section>
 <section id='about'>
-  <h2>About this tool</h2>
+  <h2>About This Tool</h2>
   <p>The MCBS COVID-19 Data Tool presents findings from the MCBS COVID-19 Summer 2020 Supplement PUF, MCBS COVID-19 Fall 2020 Supplement PUF, and MCBS COVID-19 Winter 2021 Supplement PUF. Estimates represent the population of beneficiaries who were continuously enrolled in Medicare from the beginning of 2020 and were alive, living in the community, and eligible and enrolled in Medicare at the time of the COVID-19 Summer 2020, Fall 2020, or Winter 2021 Supplement interviews.</p>
   <p>The COVID-19 Data Tool is comprised of a series of dashboards related to how COVID-19 has affected the lives of Medicare beneficiaries. In addition, estimates for different demographic subgroups and health factor status subgroups are also presented. The tool presents a visual approximation of the analysis; all conclusions should be verified through appropriate analysis of the publicly available datasets.</p>
 </section>
@@ -56,8 +56,8 @@ aboutNav:
   <h2>Methodology</h2>
   <h3>Criteria for Inclusion in the Tool</h3>
   <p>The MCBS COVID-19 Data Tool incorporates questions and responses from the COVID-19 Summer 2020, Fall 2020, and Winter 2021 Supplement PUFs that meet certain inclusion criteria.</p>
-  <p>Questions are included in the MCBS COVID-19 Data Tool if the question received enough valid responses to produce a reliable estimate. Read more about MCBS <a href='https://mcbs-interactives.norc.org/about.html#toc1-2-3'>analytical guidance</a> in the user tutorials.</p>
-  <p>Responses are included in estimated percentages for a particular question if a valid response was recorded for that survey respondent. For more information on valid responses, see the glossary and tables of preliminary estimates in the Summer 2020 <a href='https://www.cms.gov/files/document/medicare-current-beneficiary-survey-covid-19-infographic-methodology.pdf'>Infographic Methodology</a>, Fall 2020 <a href='https://www.cms.gov/files/document/medicare-current-beneficiary-survey-covid-19-data-snapshot-methodology-fall-2020.pdf'>Infographic Methodology</a>, and Winter 2021 <a href='https://www.cms.gov/files/document/medicare-current-beneficiary-survey-covid-19-data-snapshot-methodology-winter-2021.pdf'>Infographic Methodology</a>.</p>
+  <p>Questions are included in the MCBS COVID-19 Data Tool if the question received enough valid responses to produce a reliable estimate. Read more about MCBS <a href='/about/mcbs/#analytical'>analytical guidance</a> in the user tutorials.</p>
+  <p>Responses are included in estimated percentages for a particular question if a valid response was recorded for that survey respondent. For more information on valid responses, see the glossary and tables of preliminary estimates in the Summer 2020 <a href='https://www.cms.gov/files/document/medicare-current-beneficiary-survey-covid-19-infographic-methodology.pdf' target='_blank'>Infographic Methodology</a>, Fall 2020 <a href='https://www.cms.gov/files/document/medicare-current-beneficiary-survey-covid-19-data-snapshot-methodology-fall-2020.pdf' target='_blank'>Infographic Methodology</a>, and Winter 2021 <a href='https://www.cms.gov/files/document/medicare-current-beneficiary-survey-covid-19-data-snapshot-methodology-winter-2021.pdf' target='_blank'>Infographic Methodology</a>.</p>
   <h3>Data Tool Measure Construction</h3>
   <p>Several measures included in the dashboards are created using derived variables. These derived variables combine information from one or more variables available in the MCBS COVID-19 Supplement PUFs:</p>
   <div class='about__indent'>
@@ -80,7 +80,7 @@ aboutNav:
     <h3>Reasons for Not Getting COVID-19 Vaccines:</h3>
     <ul>
       <li>
-        <p><span class='about__indent__bold'>Fall 2020:</span> Reason(s) for not getting a COVID-19 vaccine if one were available” was only asked of respondents who reported they would “Probably Not” or “Definitely Not” get a COVID-19 vaccine. Respondents were able to report more than one reason.</p>
+        <p><span class='about__indent__bold'>Fall 2020:</span>“Reason(s) for not getting a COVID-19 vaccine if one were available” was only asked of respondents who reported they would “Probably Not” or “Definitely Not” get a COVID-19 vaccine. Respondents were able to report more than one reason.</p>
         <ul>
           <li><p>For the COVID-19 Vaccines dashboard, the following responses were collapsed into “Other”. The first three were collapsed due to suppression.</p>
             <ul>
@@ -136,14 +136,14 @@ aboutNav:
   <p>Within the dashboard, the confidence intervals within each dot plot are adjusted using the Goldstein-Healy method as described in:</p>
   <div class='about__indent about__indent--citation'>
     <p>Wright, Tommy, Martin Klein, and Jerzy Wieczorek. “A Primer on Visualizations for Comparing Populations, Including the Issue of Overlapping Confidence Intervals.” The American Statistician 73, no. 2 (2019): 165-178. DOI: 10.1080/00031305.2017.1392359</p>
-    <p><a href='https://doi.org/10.1080/00031305.2017.1392359'>(link)</a></p>
+    <p>To link to this article: <a href='https://doi.org/10.1080/00031305.2017.1392359' target='_blank'>https://doi.org/10.1080/00031305.2017.1392359</a></p>
   </div>
-  <p>This adjustment is done so that the confidence intervals can be readily used to determine if two estimates within a chart are, statistically speaking, different (<a href='https://mcbs-interactives.norc.org/about-covid.html#toc3-3'>see the use of confidence intervals to compare groups</a>).</p>
+  <p>This adjustment is done so that the confidence intervals can be readily used to determine if two estimates within a chart are, statistically speaking, different (<a href='#confidence-int'>see the use of confidence intervals to compare groups</a>).</p>
   <h3>Software Used</h3>
   <p>The MCBS COVID-19 Data Tool was created using R Shiny and D3.js.</p>
 </section>
 <section id='howtouse'>
-  <h2>How to use this tool</h2>
+  <h2>How to Use This Tool</h2>
   <p>Each dashboard consists of a bar chart presenting outcome variables related to a theme. For example, the dashboard on Preventive Behaviors shows the percent of beneficiaries who have changed their behavior in response to COVID-19. The dashboard also shows a series of dot plots which dynamically update to show the demographic breakdown of responses for a particular behavior.</p>
   <h3>Interactivity</h3>
   <p>Select the text “Click here to learn more” to open a drop-down box with instructions and a link to the methodology.</p>
@@ -154,7 +154,7 @@ aboutNav:
   <p>Scales on the dot plots are dynamic. Estimates should only be compared within groups in the dot plots, not across. For example, the “Male” group should not be compared to the “75+ years” group.</p>
   <h3>Hover-Overs</h3>
   <p>Hovering over a particular bar or dot in the tool allows users to view additional details about that particular question and the survey responses. For example, hovering over the bar corresponding to “Worn a facemask” in the Preventive Behaviors dashboard will provide the following information: “% of Medicare beneficiaries responded ‘yes’ to the question: Have you worn a facemask when out in public in response to the outbreak of COVID-19?”</p>
-  <h3>Use Confidence Intervals to Compare Groups</h3>
+  <h3 id='confidence-int'>Use Confidence Intervals to Compare Groups</h3>
   <p>Users can perform statistical hypothesis tests (p = 0.05) to determine if there is a meaningful difference between two percentages within a chart. The width of the intervals indicates the measure of uncertainty in the estimates.</p>
   <p>Given the method used to construct the confidence intervals (see note in the Methodology section), if two confidence intervals within a chart overlap, then there is no meaningful difference between the percentages for those two groups. However, if two confidence intervals within a chart do not overlap, then there is a meaningful difference between the percentages for those two groups.</p>
   <p>Confidence intervals are adjusted for direct comparison across groups; the confidence interval associated with each demographic group does NOT represent a univariate confidence interval for that group’s proportion. Confidence intervals should not be interpreted for a single demographic group, only used for hypothesis tests of differences between groups. However, the width of the confidence interval does provide a visual sense of the uncertainty of the estimate. All conclusions should be verified through appropriate analysis of the data.</p>

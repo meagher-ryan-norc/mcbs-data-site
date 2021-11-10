@@ -21,7 +21,7 @@ aboutNav:
 
 <section id='background'>
   <h2>Background</h2>
-  <p>Starting with the 2013 data year, the Centers for Medicare & Medicaid Services (CMS) began releasing an annual Medicare Current Beneficiary Survey (MCBS) Survey File Public Use File (PUF) and accompanying documentation to allow researchers to conduct analyses on access to care, health status, knowledge of, attitudes toward, and satisfaction with health care, as well as demographic data and information on health insurance coverage for Medicare beneficiaries living in the community. The MCBS Survey File PUF is not intended to replace the more detailed MCBS Limited Data Set (LDS) files, rather it provides a publicly available alternative that provides protection to the Medicare beneficiaries’ protected health information (PHI). To see how the MCBS PUF differs from the MCBS LDS, check out the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/MCBS-Public-Use-File/index'>MCBS PUF Data User’s Guide.</a></p>
+  <p>Starting with the 2013 data year, the Centers for Medicare & Medicaid Services (CMS) began releasing an annual Medicare Current Beneficiary Survey (MCBS) Survey File Public Use File (PUF) and accompanying documentation to allow researchers to conduct analyses on access to care, health status, knowledge of, attitudes toward, and satisfaction with health care, as well as demographic data and information on health insurance coverage for Medicare beneficiaries living in the community. The MCBS Survey File PUF is not intended to replace the more detailed MCBS Limited Data Set (LDS) files, rather it provides a publicly available alternative that provides protection to the Medicare beneficiaries’ protected health information (PHI). To see how the MCBS PUF differs from the MCBS LDS, check out the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/MCBS-Public-Use-File/index' target='_blank'>MCBS PUF Data User’s Guide</a>.</p>
   <p>The MCBS PUFs provide increased data access for researchers of the MCBS through a free file download that is consistent with other U.S. Department of Health and Human Services (HHS) public-use survey files. The MCBS PUFs have been evaluated for disclosure risk and additional steps were taken to protect beneficiary confidentiality, so they do not require a Data Use Agreement (DUA).</p>
   <p>The MCBS Survey File PUFs are divided into three segments (Fall, Winter, and Summer) starting with the 2017 data release, which permits the release of data collected in all three seasons (i.e., rounds) of MCBS data collection per year. The samples for the Winter and Summer segments are subsets of the sample for the Fall segment. All three segments contain survey weights that allow for analysis that is representative of the beneficiaries ever enrolled in Medicare at any point in the calendar year. The number of sampled Medicare beneficiaries in the 2016-2019 MCBS Survey File PUFs are listed below.</p>
   <table class='about__table'>
@@ -52,19 +52,19 @@ aboutNav:
   </table>
 </section>
 <section id='information'>
-  <h2>More information on MCBS Survey File PUF Data</h2>
+  <h2>More Information on MCBS Survey File PUF Data</h2>
   <p>To learn more about the Survey File PUF data and how to appropriately analyze the data, see the following resources:</p>
   <div class='about__indent'>
     <h4>Questionnaires</h4>
-    <p>Download the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Questionnaires'>MCBS Questionnaires.</a></p>
+    <p>Download the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Questionnaires' target='_blank'>MCBS Questionnaires</a>.</p>
   </div>
   <div class='about__indent'>
     <h4>Public Use File</h4>
-    <p>Download the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/MCBS-Public-Use-File/index'>2013-2019 MCBS Survey File PUFs</a>, including the analytic weights, data user documentation, and codebook.</p>
+    <p>Download the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/MCBS-Public-Use-File/index' target='_blank'>2013-2019 MCBS Survey File PUFs</a>, including the analytic weights, data user documentation, and codebook.</p>
   </div>
 </section>
 <section id='about'>
-  <h2>About this tool</h2>
+  <h2>About This Tool</h2>
   <p>The MCBS Survey File PUF Data Tool presents estimates from the 2016-2019 MCBS Survey File PUFs with appropriate weights. Estimates represent the population of beneficiaries who were ever enrolled in Medicare at any time during the calendar year.</p>
   <p>The Survey File PUF Data Tool is comprised of a series of dashboards related to Medicare beneficiaries’ health status, medical conditions, insurance coverage, and information on their access to and satisfaction with health care services. Estimates for various demographic and socioeconomic subgroups are also presented.</p>
   <p>The tool presents a visual approximation of the analysis; all conclusions should be verified through appropriate analysis of the publically available datasets.</p>
@@ -74,7 +74,7 @@ aboutNav:
   <h3>Criteria for Inclusion in the Tool</h3>
   <p>All estimates in the Survey File PUF Data Tool exclude beneficiaries for whom PUF data are missing for a given measure. Missing variable data, which encompass “Don’t Know”, “Not Ascertained”, and “Refused” responses, are excluded from both the numerator and denominator in the calculation of each measure.</p>
   <h3>Comparison to the MCBS Chartbook</h3>
-  <p>The Survey File PUF Data Tool was designed to follow many of the conventions of the annual <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Data-Tables'>MCBS Chartbook</a>, including the following:</p>
+  <p>The Survey File PUF Data Tool was designed to follow many of the conventions of the annual <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Data-Tables' target='_blank'>MCBS Chartbook</a>, including the following:</p>
   <ul>
     <li>The tool provides users with estimates for large segments of the population of Medicare beneficiaries living in the community.</li>
     <li>Measures included in this tool are created using Survey File PUF variables that have a stable universe and are comparable across years, unless otherwise noted below.</li>
@@ -118,15 +118,15 @@ aboutNav:
   <p>Within the dashboard, the confidence intervals within each dot plot are adjusted using the Goldstein-Healy method as described in:</p>
   <div class='about__indent about__indent--citation'>
     <p>Wright, Tommy, Martin Klein, and Jerzy Wieczorek. “A Primer on Visualizations for Comparing Populations, Including the Issue of Overlapping Confidence Intervals.” The American Statistician 73, no. 2 (2019): 165-178. DOI: 10.1080/00031305.2017.1392359</p>
-    <p><a href='https://doi.org/10.1080/00031305.2017.1392359'>(link)</a></p>
+    <p>To link to this article: <a href='https://doi.org/10.1080/00031305.2017.1392359' target='_blank'>https://doi.org/10.1080/00031305.2017.1392359</a></p>
   </div>
-  <p>This adjustment is done so that the confidence intervals can be readily used to determine if two estimates within a chart are, statistically speaking, different (<a href='https://mcbs-interactives.norc.org/about-survey.html#toc3-3'>see the use of confidence intervals to compare groups</a>).</p>
+  <p>This adjustment is done so that the confidence intervals can be readily used to determine if two estimates within a chart are, statistically speaking, different (<a href='#confidence-int'>see the use of confidence intervals to compare groups</a>).</p>
   <h3>Software Used</h3>
-  <p>The MCBS COVID-19 Data Tool was created using R Shiny and D3.js.</p>
+  <p>The MCBS Survey File PUF Data Tool was created using R Shiny and D3.js.</p>
 </section>
 <section id='howtouse'>
-  <h2>How to use this tool</h2>
-  <p>Each dashboard consists of a bar chart presenting outcome variables related to a theme. For example, the dashboard on Preventive Behaviors shows the percent of beneficiaries who have changed their behavior in response to COVID-19. The dashboard also shows a series of dot plots which dynamically update to show the demographic breakdown of responses for a particular behavior.</p>
+  <h2>How to Use This Tool</h2>
+  <p>Each dashboard consists of a bar chart presenting outcome variables related to a theme. For example, the dashboard on Preventive Behaviors shows the percent of beneficiaries who have changed their behavior in response to COVID-19. The dashboard also shows a series of dot plots which dynamically update to show the demographic breakdown of responses for a particular behavior. > Each dashboard consists of a bar chart presenting outcome variables related to a theme. For example, the dashboard on Insurance Coverage shows the percent of beneficiaries who have different types of insurance. The dashboard also shows a series of dot plots which dynamically update to show the demographic breakdown of responses for a particular category.</p>
   <h3>Interactivity</h3>
   <p>Click on a single bar within the bar chart to see how that topic differs within each group displayed in the dot plots. The dot plots include confidence intervals which can be used to identify potential meaningful differences.</p>
   <p>Clicking on a bar in the bar chart on the left adjusts the universe of beneficiaries in the dot plots on the right. For example, clicking on the bar corresponding to “Fee-for-Service (FFS)” in the Insurance Coverage dashboard updates the universe of beneficiaries in the dot plots to all beneficiaries who had a valid response to the question about type of Medicare coverage.”</p>
@@ -134,7 +134,7 @@ aboutNav:
   <p>Scales on the dot plots are dynamic. Estimates should only be compared within groups in the dot plots, not across. For example, the “Male” group should not be compared to the “75+ years” group.</p>
   <h3>Hover-Overs</h3>
   <p>Hovering over a particular bar or dot in the tool allows users to view additional details about that particular question and the survey responses. For example, hovering over the bar corresponding to “Fee-for-Service (FFS)” in the Insurance Coverage dashboard will provide the percent estimate for that category as well as the standard error.</p>
-  <h3>Use Confidence Intervals to Compare Groups</h3>
+  <h3 id='confidence-int'>Use Confidence Intervals to Compare Groups</h3>
   <p>Users can perform statistical hypothesis tests (p = 0.05) to determine if there is a meaningful difference between two percentages within a chart. The width of the intervals indicates the measure of uncertainty in the estimates.</p>
   <p>Given the method used to construct the confidence intervals (see note in the Methodology section), if two confidence intervals within a chart overlap, then there is no meaningful difference between the percentages for those two groups. However, if two confidence intervals within a chart do not overlap, then there is a meaningful difference between the percentages for those two groups.</p>
   <p>Confidence intervals are adjusted for direct comparison across groups; the confidence interval associated with each demographic group does NOT represent a univariate confidence interval for that group’s proportion. Confidence intervals should not be interpreted for a single demographic group, only used for hypothesis tests of differences between groups. However, the width of the confidence interval does provide a visual sense of the uncertainty of the estimate. All conclusions should be verified through appropriate analysis of the data.</p>
