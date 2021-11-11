@@ -28,3 +28,18 @@ window.onclick = function(e) {
     }
   }
 }
+
+
+// HAMBURGER MENU
+const hamburgerButton = document.querySelector('.hamburger');
+const hamburgerContent = document.querySelector('.hamburger-content');
+
+hamburgerButton.addEventListener("click", e => {
+  hamburgerContent.classList.toggle("show");
+})
+
+window.addEventListener('resize', function(){
+  if (hamburgerContent.classList.contains("show")){
+    hamburgerContent.classList.toggle("show");
+  }
+});

@@ -3,38 +3,56 @@
   justify-content: space-between;
   align-items: center;
   background: $mcbs-dark-blue;
-  padding: 1.5rem 5vw;
+  padding: 1.5rem 3vw;
   margin: 0;
+  position: relative;
 }
 
 .nav-left {
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 
 .nav-right {
+  width: 40vw;
+  max-width: 400px;
+  min-width: 300px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
+}
 
-  .nav__link {
-    font-weight: 700;
-    font-size: 16px;
-    text-decoration: none;
-    color: white;
-    margin: 0 0 0 2rem;
-    padding: 1px 6px;
+.hamburger-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
 
-    &:hover {
-      color: $mcbs-yellow;
-    }
+.nav__link {
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  padding: 1px 6px;
+
+  &:hover {
+    color: $mcbs-yellow;
+  }
+
+  &--home {
+    display: none;
   }
 }
 
 .nav-logo {
   padding: 0 1.5rem 0 0;
   border-right: 1px solid white;
-  width: 200px;
+  width: 20vw;
+  min-width: 100px;
+  max-width: 200px;
 
   img {
     width: 100%;
@@ -44,18 +62,11 @@
 
 .nav-title {
   font-weight: 300;
-  font-size: 22px;
+  font-size: 18px;
   color: white;
   margin: 0 0 0 1.5rem;
   letter-spacing: 1.5px;
 }
-
-.dropdown {
-  float: left;
-  // overflow: hidden;
-  margin: 0 0 0 2rem;
-}
-
 
 .navbar-chevron {
   width: 16px;
@@ -133,4 +144,51 @@
 
 .show {
   display: block;
+}
+
+.hamburger {
+  display: none;
+  pointer-events: none;
+}
+
+@media all and (min-width: 999px) {
+  .nav-title {
+    font-size: 22px;
+  }
+
+  .navbar {
+    padding: 1.5rem 5vw;
+  }
+
+  .nav__link--home {
+    display: block;
+  }
+}
+
+@media all and (max-width: 740px) {
+  .nav-right {
+    min-width: 0;
+  }
+
+  .hamburger {
+    display: block;
+    pointer-events: auto;
+  }
+
+  .hamburger-content {
+    display: none;
+    text-align: left;
+    position: absolute;
+    left: 0;
+    bottom: -88px;
+    width: 100%;
+  }
+
+  .hamburger-content.show {
+    display: block;
+  }
+
+  .nav__link--home {
+    display: block;
+  }
 }

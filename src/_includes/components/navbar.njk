@@ -1,37 +1,38 @@
 <nav class='navbar'>
-  <div class='nav-left'>
-    <a href='/'>
-      <div class='nav-logo'>
-        <img src='/img/mcbs-logo-white.png'>
-      </div>
-    </a>
+  <a class='nav-left' href='/'>
+    <div class='nav-logo'>
+      <img src='/img/mcbs-logo-white.png'>
+    </div>
     <p class='nav-title'>MCBS Interactives</p>
-  </div>
+  </a>
   <div class='nav-right'>
-    <a class='nav__link' href='/'>Home</a>
-    <div class='dropdown'>
-      <button class='drop-btn' id='about-btn'">About
-        <svg class='navbar-chevron'>
-          <use href='#downchevron'/>
-        </svg>
-      </button>
-      <div class='dropdown-content' id='about-btn-dropdown'>
-        {% for page in collections.about %}
-        <a href="{{ page.url }}">{{ page.data.title }}</a>
-        {% endfor %}
+    <button class='hamburger'>H</button>
+    <div class='hamburger-content'>
+      <a class='nav__link nav__link--home' href='/'>Home</a>
+      <div class='dropdown'>
+        <button class='drop-btn' id='about-btn'">About
+          <svg class='navbar-chevron'>
+            <use href='#downchevron'/>
+          </svg>
+        </button>
+        <div class='dropdown-content' id='about-btn-dropdown'>
+          {% for page in collections.about %}
+          <a href="{{ page.url }}">{{ page.data.title }}</a>
+          {% endfor %}
+        </div>
       </div>
-    </div>
-    <div class='dropdown'>
-      <button class='drop-btn' id='tools-btn'">Data Tools
-        <svg class='navbar-chevron'>
-          <use href='#downchevron'/>
-        </svg>
-      </button>
-      <div class='dropdown-content' id='tools-btn-dropdown'>
-        <a href="/covid-data/preventive/">COVID-19 Data Tool</a>
-        <a href="/puf-data/insurance/">Survey File PUF Data Tool</a>
+      <div class='dropdown'>
+        <button class='drop-btn' id='tools-btn'">Data Tools
+          <svg class='navbar-chevron'>
+            <use href='#downchevron'/>
+          </svg>
+        </button>
+        <div class='dropdown-content' id='tools-btn-dropdown'>
+          <a href="/covid-data/preventive/">COVID-19 Data Tool</a>
+          <a href="/puf-data/insurance/">Survey File PUF Data Tool</a>
+        </div>
       </div>
+      <a class='nav__link' href='/contact/'>Contact Us</a>
     </div>
-    <a class='nav__link' href='/contact/'>Contact Us</a>
   </div>
 </nav>
