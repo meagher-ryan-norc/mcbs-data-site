@@ -6,13 +6,17 @@
     <p class='nav-title'>MCBS Interactives</p>
   </a>
   <div class='nav-right'>
-    <button class='hamburger'>H</button>
-    <div class='hamburger-content'>
+    <button class='hamburger'>
+      <svg>
+        <use href='#hamburger'/>
+      </svg>
+    </button>
+    <div id='hamburger-content'>
       <a class='nav__link nav__link--home' href='/'>Home</a>
       <div class='dropdown'>
         <button class='drop-btn' id='about-btn'">About
           <svg class='navbar-chevron'>
-            <use href='#downchevron'/>
+            <use href='#rightchevron'/>
           </svg>
         </button>
         <div class='dropdown-content' id='about-btn-dropdown'>
@@ -24,7 +28,7 @@
       <div class='dropdown'>
         <button class='drop-btn' id='tools-btn'">Data Tools
           <svg class='navbar-chevron'>
-            <use href='#downchevron'/>
+            <use href='#rightchevron'/>
           </svg>
         </button>
         <div class='dropdown-content' id='tools-btn-dropdown'>

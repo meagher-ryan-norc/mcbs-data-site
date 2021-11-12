@@ -25,10 +25,10 @@ function aboutDropdown() {
   aboutList.classList.toggle("about__nav__list--show");
 }
 
-window.onclick = function(e) {
+window.addEventListener('click', e => {
   if (e.target.id != 'about-contents-btn') {
     if (aboutList.classList.contains('about__nav__list--show')) {
       aboutList.classList.remove('about__nav__list--show');
     }
   }
-}
+});
