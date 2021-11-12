@@ -72,16 +72,18 @@
   padding: 2.5rem 5vw;
 }
 
-.foot-left {
+.footer-bottom__left {
   width: 325px;
   img {
     width: 100%;
+    max-width: 325px;
   }
 }
 
-.foot-right {
+.footer-bottom__right {
+  text-align: right;
+
   p {
-    text-align: right;
     color: white;
     line-height: 1.5em;
     margin: 0;
@@ -95,6 +97,40 @@
 
     &:hover {
       text-decoration: underline;
+    }
+  }
+}
+
+@media all and (max-width: 740px) {
+  .footer-bottom {
+    flex-direction: column;
+
+    &__left {
+      margin: 0 0 2rem 0;
+
+      a {
+        width: 100%;
+      }
+
+      img {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+      }
+    }
+
+    &__right {
+      text-align: center;
+    }
+  }
+
+  .footer-top {
+    &__hed {
+      font-size: 40px;
+    }
+
+    &__text {
+      font-size: 16px;
     }
   }
 }
