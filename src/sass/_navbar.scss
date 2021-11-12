@@ -166,6 +166,10 @@
 }
 
 @media all and (max-width: 740px) {
+  .navbar {
+    height: 3rem;
+  }
+
   .nav-right {
     min-width: 0;
   }
@@ -180,15 +184,59 @@
     text-align: left;
     position: absolute;
     left: 0;
-    bottom: -88px;
+    top: 90px;
     width: 100%;
+    background: $mcbs-lite-gray;
+    z-index: 2000;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
   }
 
   .hamburger-content.show {
     display: block;
   }
 
+  .dropdown .drop-btn {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    width: 100%;
+    text-align: left;
+
+    &:hover {
+      color: black;
+      background: $mcbs-yellow;
+    }
+
+    &:hover .navbar-chevron {
+      fill: black;
+    }
+
+    svg {
+      fill: black;
+      transform: translate(0,3px);
+    }
+  }
+
+  .nav__link {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    width: 100%;
+
+    &:hover {
+      color: black;
+      background: $mcbs-yellow;
+    }
+
+  }
+
   .nav__link--home {
     display: block;
+  }
+
+  .dropdown-content {
+    position: relative;
+    transform: translate(0,0);
+    box-shadow: none;
   }
 }
