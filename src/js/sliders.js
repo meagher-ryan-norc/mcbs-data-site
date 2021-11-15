@@ -6,12 +6,28 @@ function initSplide() {
   for (let i = 0; i < sliders.length; i++) {
     new Splide(sliders[i], {
       type: 'loop',
-      padding: { left: 0, right: '2rem' },
-      perPage: 3,
-      perMove: 1,
       pagination: false,
-      autoWidth: true,
-      gap: '2rem',
+      breakpoints: {
+        2400: {
+          padding: { left: 0, right: '2rem' },
+          autoWidth: true,
+          perPage: 3,
+          perMove: 1
+        },
+        999: {
+          padding: { left: 0, right: 0},
+          perPage: 2,
+          perMove: 1,
+          mediaQuery: 'max'
+        },
+        740: {
+          perPage: 1,
+          perMove: 1,
+          autoWidth: true,
+          padding: '4rem',
+          focus: 'center',
+        }
+      }
     }).mount();
   }
 }
