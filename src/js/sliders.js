@@ -7,6 +7,7 @@ function initSplide() {
     new Splide(sliders[i], {
       type: 'loop',
       pagination: false,
+      keyboard: 'focused',
       breakpoints: {
         2400: {
           padding: { left: 0, right: '2rem' },
