@@ -14,11 +14,11 @@
 
 <main class='chart-main'>
   <div class='chart-dropdown chart-dropdown--covid'>
-    <h3 class='chart-dropdown__title'>{{title}}
+    <button class='chart-dropdown__title'>{{title}}
       <svg class='chevron'>
         <use href='#rightchevron'/>
       </svg>
-    </h3>
+    </button>
     <div class='chart-dropdown__content'>
       {% for chart in collections.sortedCovid %}
         {% if chart.data.title != title %}
@@ -32,4 +32,9 @@
     <iframe frameborder="0" class="rshinyframe" src="{{iframe}}" title="daily life iframe" style="border: none; width: 100%;"></iframe>
   </div>
 </main>
+{% endblock %}
+
+{% block scripts %}
+{{ super() }}
+<script src='/js/chart.js'></script>
 {% endblock %}
