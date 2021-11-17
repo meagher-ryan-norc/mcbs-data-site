@@ -369,6 +369,10 @@
   }
 }
 
+#search-number {
+  display: none;
+}
+
 .search.active .search__autocomplete {
   padding: 10px 8px;
   pointer-events: auto;

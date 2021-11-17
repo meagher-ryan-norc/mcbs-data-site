@@ -31,6 +31,13 @@ svg {
   pointer-events: none;
 }
 
+#sprite {
+  pointer-events: none;
+  display:none;
+  height:0;
+  visibility:invisible;
+}
+
 .sr-only{
 	// Use this to hide elements from everything except screen readers.
   position: absolute;
