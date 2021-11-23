@@ -32,15 +32,15 @@ aboutNav:
   </div>
   <div class='about__indent'>
     <h4>Questionnaires</h4>
-    <p>Download the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Questionnaires' target='_blank'>MCBS Questionnaire Specifications.</a></p>
+    <p>Download the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Questionnaires' target='_blank'>MCBS Questionnaire Specifications</a>.</p>
   </div>
   <div class='about__indent'>
     <h4>Data User Documentation</h4>
-    <p>For data user documentation, including codebooks and information about the survey design, sampling methodology, interviewing procedures, weighting, and more, check out the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Codebooks' target='_blank'>MCBS Data User’s Guides, Methodology Reports, and Frequently Asked Questions (FAQs).</a></p>
+    <p>For data user documentation, including codebooks and information about the survey design, sampling methodology, interviewing procedures, weighting, and more, check out the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Codebooks' target='_blank'>MCBS Data User’s Guides, Methodology Reports, and Frequently Asked Questions (FAQs)</a>.</p>
   </div>
   <div class='about__indent'>
     <h4 id='analytical'>Analytic Guidance</h4>
-    <p>For more information about using MCBS data and analytic guidance, check out the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Data-Briefs' target='_blank'>New and Advanced User Tutorials.</a></p>
+    <p>For more information about using MCBS data and analytic guidance, check out the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Data-Briefs' target='_blank'>New and Advanced User Tutorials</a>.</p>
   </div>
   <div class='about__indent'>
     <h4>MCBS Estimates</h4>
@@ -57,8 +57,8 @@ aboutNav:
   </div>
   <div class='about__indent'>
     <h4>More Information About the Tools</h4>
-    <p>For more information about the COVID-19 Data Tool, see this <a href='/about/covid-data'>ABOUT PAGE.</a></p>
-    <p>For more information about the Survey File PUF Data Tool, see this <a href='/about/puf-data'>ABOUT PAGE.</a></p>
+    <p>For more information about the COVID-19 Data Tool, see this <a href='/about/covid-data'>ABOUT PAGE</a>.</p>
+    <p>For more information about the Survey File PUF Data Tool, see this <a href='/about/puf-data'>ABOUT PAGE</a>.</p>
   </div>
 </section>
 <section id='citations'>

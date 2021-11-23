@@ -80,7 +80,7 @@ aboutNav:
     <h3>Reasons for Not Getting COVID-19 Vaccines:</h3>
     <ul>
       <li>
-        <p><span class='about__indent__bold'>Fall 2020:</span>“Reason(s) for not getting a COVID-19 vaccine if one were available” was only asked of respondents who reported they would “Probably Not” or “Definitely Not” get a COVID-19 vaccine. Respondents were able to report more than one reason.</p>
+        <p><span class='about__indent__bold'>Fall 2020:</span> “Reason(s) for not getting a COVID-19 vaccine if one were available” was only asked of respondents who reported they would “Probably Not” or “Definitely Not” get a COVID-19 vaccine. Respondents were able to report more than one reason.</p>
         <ul>
           <li><p>For the COVID-19 Vaccines dashboard, the following responses were collapsed into “Other”. The first three were collapsed due to suppression.</p>
             <ul>
@@ -158,6 +158,6 @@ aboutNav:
   <p>Users can perform statistical hypothesis tests (p = 0.05) to determine if there is a meaningful difference between two percentages within a chart. The width of the intervals indicates the measure of uncertainty in the estimates.</p>
   <p>Given the method used to construct the confidence intervals (see note in the Methodology section), if two confidence intervals within a chart overlap, then there is no meaningful difference between the percentages for those two groups. However, if two confidence intervals within a chart do not overlap, then there is a meaningful difference between the percentages for those two groups.</p>
   <p>Confidence intervals are adjusted for direct comparison across groups; the confidence interval associated with each demographic group does NOT represent a univariate confidence interval for that group’s proportion. Confidence intervals should not be interpreted for a single demographic group, only used for hypothesis tests of differences between groups. However, the width of the confidence interval does provide a visual sense of the uncertainty of the estimate. All conclusions should be verified through appropriate analysis of the data.</p>
-  <p>For more information, <a href='/contact'>contact us.</a></p>
+  <p>For more information, <a href='/contact'>contact us</a>.</p>
 </section>
 
