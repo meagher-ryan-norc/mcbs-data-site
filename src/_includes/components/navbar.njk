@@ -20,7 +20,7 @@
           </svg>
         </button>
         <div class='dropdown-content' id='about-btn-dropdown'>
-          {% for page in collections.about %}
+          {% for page in collections.sortedAbout %}
           <a href="{{ page.url }}">{{ page.data.title }}</a>
           {% endfor %}
         </div>

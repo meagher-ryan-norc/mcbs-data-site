@@ -1,5 +1,6 @@
 ---
 title: About the MCBS
+order: 1
 aboutNav:
   - text: "Background"
     link: "#background"
