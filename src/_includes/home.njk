@@ -5,7 +5,7 @@
   <div class='home-container' id='hero'>
     <h1>{{hed}}</h1>
     <div class='hero-img'>
-      <img src='/img/chart-screencap.png'>
+      <img src='/img/chart-screencap.png' alt='Screen capture of MCBS data tool'>
       <a href='/puf-data/insurance/'><span>EXPLORE DATA TOOLS</span></a>
     </div>
     <div class='home-container__sharing'>
@@ -26,8 +26,8 @@
           <ul class='splide__list'>
             {% for chart in collections.sortedCovid %}
             <li class='splide__slide'>
-              <img src='/img/carousel/{{chart.fileSlug}}.jpg'>
-              <a class='slide__link' href="{{ chart.url }}">
+              <img src='/img/carousel/{{chart.fileSlug}}.jpg' alt='{{ chart.data.imgAlt }}'>
+              <a class='slide__link' href='{{ chart.url }}' aria-label='Link to {{ chart.data.title }} data tool'>
                 <div class='slide__info'>
                   <h4>{{ chart.data.title }}</h4>
                   <div class='slide__info__text'>
@@ -58,8 +58,8 @@
           <ul class='splide__list'>
             {% for chart in collections.sortedPuf %}
             <li class='splide__slide'>
-              <img src='/img/carousel/{{chart.fileSlug}}.jpg'>
-              <a class='slide__link' href="{{ chart.url }}">
+              <img src='/img/carousel/{{chart.fileSlug}}.jpg' alt='{{ chart.data.imgAlt }}'>
+              <a class='slide__link' href='{{ chart.url }}' aria-label='Link to {{ chart.data.title }} data tool'>
                 <div class='slide__info'>
                   <h4>{{ chart.data.title }}</h4>
                   <div class='slide__info__text'>
@@ -81,13 +81,15 @@
   </div>
 
   <div class='home-container' id='explore'>
-    <h2 class='homepage-label homepage-label__blue'>Search MCBS data tools</h2>
+    <h2 class='homepage-label homepage-label__white'>Search MCBS data tools</h2>
     <div class='search-wrapper'>
       <form class='search'>
-        <input type='text' placeholder='Type to search ...'>
+        <label for='search' class='sr-only'>Search:</label>
+        <input type='text' name='search' placeholder='Type to search ...'>
         <ul class='search__autocomplete'>
         </ul>
         <button type='submit' class='search__icon'>
+          <span class="sr-only">Search</span>
           <svg class='search__icon__svg'>
             <use href='#searchIcon'/>
           </svg>

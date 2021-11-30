@@ -10,9 +10,9 @@
   }
 
   .homepage-label {
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 24px;
     letter-spacing: 3px;
     color: black;
 
@@ -28,7 +28,7 @@
       color: $mcbs-green;
     }
 
-    &__blue {
+    &__white {
       color: white;
       text-shadow: 1px 1px 8px black;
     }
@@ -137,6 +137,7 @@
   height: 400px;
 
   &__slide {
+    background-color: #000000;
     width: 30%;
     min-width: 300px;
     height: 400px;
@@ -185,7 +186,7 @@
   overflow: hidden;
   transition: all 0.5s ease;
   &:hover, &:focus-visible {
-    background-color: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.6);
     .slide__info {
       bottom: 0;
       background: none;
@@ -203,10 +204,10 @@
   position: absolute;
   left: 0;
   bottom: 0;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.6);
   color: white;
   padding: 0.5rem 1.5rem 1.5rem 1.5rem;
-  box-shadow: 0 0 10px 10px rgba(0,0,0,0.5);
+  box-shadow: 0 0 10px 10px rgba(0,0,0,0.6);
   transition: all 0.5s ease;
 
   h4 {
@@ -222,14 +223,11 @@
   }
 
   p.slide__info__text--explore  {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 800;
     text-transform: uppercase;
     margin: 0;
     color: $mcbs-yellow;
-    &:hover {
-      text-decoration: underline;
-    }
   }
 }
 
@@ -442,7 +440,7 @@
 
   .splide__slide {
     //border: 1px solid $mcbs-gray;
-    background: white;
+    background-color: white;
     height: auto;
     width: 80%;
     min-width: 270px;

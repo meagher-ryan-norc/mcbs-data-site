@@ -66,7 +66,6 @@ inputBox.onkeyup = (e) => {
         const keywordEl = `<li>` + keyword + `</li>`;
         return keywordEl;
       });
-      console.log(filteredArr);
       searchContainer.classList.add('active');
       renderAutocomplete(filteredArr, autocompleteBox);
       const autocompleteList = autocompleteBox.querySelectorAll('li');
