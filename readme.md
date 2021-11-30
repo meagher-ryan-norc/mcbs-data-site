@@ -8,8 +8,6 @@ Run `npm install` to install eleventy, sass, and other relevant packages.
 
 `npm start` runs a local development server via Browsersync at `http://localhost:8080` and compiles code to a `public` folder. Changes to `src` files will recompile and auto-refresh in the browser.
 
-NOTE: The Content Security Policy must either include `'unsafe-inline'` in the `script-src` or temporarily commented out for Browsersync to auto-refresh the development server. 
-
 ## Development
 
 ### SRC vs PUBLIC
@@ -45,9 +43,9 @@ Images should be put in the `src/img` folder, and they will be copied to public 
 
 Some groups of pages are gathered into what Eleventy calls "collections." Collections are a group of markdown files that use the same layout, and collections are iterable using Nunjucks.
 
-For example, all of the pages for the Covid-19 data tool are gathered together in the `covid-data` folder inside `src`. The layout information and name of the collection is contained in a `.json` file with the same name as the folder. When compiled, this collection of pages will be located inside `public/covid-data/`.
+For example, all of the pages for the Covid-19 data tool are gathered together in the `covid-data` folder inside `src`. The layout information and name of the collection is contained in a `.json` file with the same name as the folder. When compiled, this collection of pages will be located at the path `public/covid-data/`.
 
-Collections are default sorted by "date," because I guess Eleventy assumes they would be used for a blog? A custom sort was added to `/.eleventy.js` to sort the collections by the `order` listed in each page's frontmatter.
+Collections are default sorted by "date," because I guess Eleventy assumes they would be used for a blog? Custom sorts were added to `/.eleventy.js` to sort the collections by the `order` listed in each page's frontmatter.
 
 [More on Eleventy collections.](https://www.11ty.dev/docs/collections/)
 
@@ -55,13 +53,13 @@ Collections are default sorted by "date," because I guess Eleventy assumes they 
 
 Javascript files live in the `./src/js` folder. `base.js` is the JS required on every page (navbar dropdowns, etc.). Other pages that require specific scripting should split out their JS into separate files/functions and include them in a block scripts tag at the bottom of the layout template.
 
-The Content Security Policy does not allow for inline script tags. Any additional scripts loaded in from external CDNs will need to be added to the Content Security Policy.
+The current Content Security Policy does not allow for inline script tags or loading in scripts from external CDNs.
 
 ### Styles
 
 Styles for the project are built using Sass and scss. These styles live in the `src/sass` folder. `style.scss` is the base file where site-level variables (like colors) should be declared and all other partials (like `_navbar.scss` and `_footer.scss`) should be imported.
 
-Any additional styles/fonts loaded in from external CDNs or elsewhere will need to be added to the Content Security Policy.
+The current Content Security Policy does not allow for externally loaded styles or fonts. Local fonts are hosted in the `fonts` folder, and the font-face rules are in the main `style.scss` file.
 
 ## Building for deployment
 
