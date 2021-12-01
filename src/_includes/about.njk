@@ -1,7 +1,7 @@
 {% extends "base.njk" %}
 
 {% block content %}
-<div class='chart-nav'>
+<nav class='chart-nav' aria-label='extendedNavbar'>
   <a href='/covid-data/preventive' class='chart-nav__container chart-nav__container--covid'>
     <h4>COVID-19 DATA TOOL<svg class='arrow'><use href='#rightarrow'/></svg>
     </h4>
@@ -10,12 +10,12 @@
     <h4>SURVEY FILE PUF DATA TOOL<svg class='arrow'><use href='#rightarrow'/></svg>
     </h4>
   </a>
-</div>
+</nav>
 
 
 <main class='about-main'>
   <div class='about'>
-    <nav class='about__nav'>
+    <nav class='about__nav' aria-label='AboutPageContents'>
       <button class='about__nav__btn' id='about-contents-btn'>Contents</button>
       <div class='about__nav__list'>
         {% for item in aboutNav %}
