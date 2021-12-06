@@ -5,5 +5,5 @@ description: Learn about Medicare beneficiaries’ varying attitudes toward COVI
 imgAlt: Woman with white hair coughing into her hand
 order: 8
 keywords: Contagious, Deadly, Severe, Chronic, Coronavirus, Sex, Gender, Age, Income, Race, Ethnicity, Language, English, Dual, Dual eligible, Smoking, Smoker, Tobacco, Immune system, Pandemic
-iframe: https://mcbscovid.norc.org/?severity
+iframe: https://shiny-stg.norc.org/mcbscovid/?severity
 ---
