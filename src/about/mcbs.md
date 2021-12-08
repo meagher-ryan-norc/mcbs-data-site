@@ -28,23 +28,23 @@ aboutNav:
   <h2>Resources on the MCBS</h2>
   <p>To access additional resources on the MCBS, check out the following links:</p>
   <div class='about__indent'>
-    <h4>Public Use Files</h4>
+    <h3 class='nospace'>Public Use Files</h3>
     <p>To learn more about or download publicly available MCBS data, check out the Survey File or COVID-19 <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/MCBS-Public-Use-File' target='_blank'>Public Use Files</a> (PUFs).</p>
   </div>
   <div class='about__indent'>
-    <h4>Questionnaires</h4>
+    <h3 class='nospace'>Questionnaires</h3>
     <p>Download the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Questionnaires' target='_blank'>MCBS Questionnaire Specifications</a>.</p>
   </div>
   <div class='about__indent'>
-    <h4>Data User Documentation</h4>
+    <h3 class='nospace'>Data User Documentation</h3>
     <p>For data user documentation, including codebooks and information about the survey design, sampling methodology, interviewing procedures, weighting, and more, check out the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Codebooks' target='_blank'>MCBS Data User’s Guides, Methodology Reports, and Frequently Asked Questions (FAQs)</a>.</p>
   </div>
   <div class='about__indent'>
-    <h4 id='analytical'>Analytic Guidance</h4>
+    <h3 class='nospace' id='analytical'>Analytic Guidance</h3>
     <p>For more information about using MCBS data and analytic guidance, check out the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Data-Briefs' target='_blank'>New and Advanced User Tutorials</a>.</p>
   </div>
   <div class='about__indent'>
-    <h4>MCBS Estimates</h4>
+    <h3 class='nospace'>>MCBS Estimates</h3>
     <p>To see MCBS estimates on various topics of interest, check out:</p>
     <ul>
       <li><a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Data-Tables' target='_blank'>MCBS Chartbook</a>, published annually.</li>
@@ -53,11 +53,11 @@ aboutNav:
     </ul>
   </div>
   <div class='about__indent'>
-    <h4>Bibliographies</h4>
+    <h3 class='nospace'>Bibliographies</h3>
     <p>To see how MCBS data have been studied in the past, check out the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Bibliography' target='_blank'>MCBS Bibliographies</a>.</p>
   </div>
   <div class='about__indent'>
-    <h4>More Information About the Tools</h4>
+    <h3 class='nospace'>More Information About the Tools</h3>
     <p>For more information about the COVID-19 Data Tool, see this <a href='/about/covid-data'>ABOUT PAGE</a>.</p>
     <p>For more information about the Survey File PUF Data Tool, see this <a href='/about/puf-data'>ABOUT PAGE</a>.</p>
   </div>

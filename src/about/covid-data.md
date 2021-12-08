@@ -31,19 +31,19 @@ aboutNav:
   <h2>More Information on MCBS COVID-19 Data</h2>
   <p>To learn more about the COVID-19 Community Supplements and how to appropriately analyze the data, see the following resources:</p>
   <div class='about__indent'>
-    <h4>Questionnaires</h4>
+    <h3 class='nospace'>Questionnaires</h3>
     <p>Download the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Questionnaires' target='_blank'>MCBS COVID-19 Supplement Questionnaires</a>.</p>
   </div>
   <div class='about__indent'>
-    <h4>Public Use File</h4>
+    <h3 class='nospace'>Public Use File</h3>
     <p>Download the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/MCBS-Public-Use-File/index' target='_blank'>MCBS COVID-19 Supplement PUFs</a>, including the analytic weights, data user documentation, and codebook.</p>
   </div>
   <div class='about__indent'>
-    <h4>Limited Data Sets</h4>
+    <h3 class='nospace'>Limited Data Sets</h3>
     <p>Download documentation for the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Codebooks' target='_blank'>MCBS LDS</a>, including the Data User’s Guides and Methodology Reports, and learn more about the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Files-for-Order/Data-Disclosures-Data-Agreements/DUA_-_NewLDS' target='_blank'>LDS DUA process</a>.</p>
   </div>
   <div class='about__indent'>
-    <h4>COVID-19 Supplement Estimates</h4>
+    <h3 class='nospace'>COVID-19 Supplement Estimates</h3>
     <p>To view other estimates from MCBS COVID-19 Community Supplement data, check out the Summer 2020 Data Snapshot <a href='https://www.cms.gov/files/document/mcbs-covid-19-snapshot.pdf' target='_blank'>Infographic</a>, Fall 2020 Data Snapshot <a href='https://www.cms.gov/files/document/medicare-current-beneficiary-survey-covid-19-data-snapshot-infographic-fall-2020.pdf' target='_blank'>Infographic</a>, and Winter 2021 Data Snapshot <a href='https://www.cms.gov/files/document/medicare-current-beneficiary-survey-covid-19-data-snapshot-infographic-winter-2021.pdf' target='_blank'>Infographic</a>.</p>
     <p>To learn more, download the Summer 2020 <a href='https://www.cms.gov/files/document/medicare-current-beneficiary-survey-covid-19-infographic-methodology.pdf' target='_blank'>Infographic Methodology</a>, Fall 2020 <a href='https://www.cms.gov/files/document/medicare-current-beneficiary-survey-covid-19-data-snapshot-methodology-fall-2020.pdf' target='_blank'>Infographic Methodology</a>, and Winter 2021 <a href='https://www.cms.gov/files/document/medicare-current-beneficiary-survey-covid-19-data-snapshot-methodology-winter-2021.pdf' target='_blank'>Infographic Methodology</a>.</p>
   </div>
@@ -147,11 +147,11 @@ aboutNav:
   <h2>How to Use This Tool</h2>
   <p>Each dashboard consists of a bar chart presenting outcome variables related to a theme. For example, the dashboard on Preventive Behaviors shows the percent of beneficiaries who have changed their behavior in response to COVID-19. The dashboard also shows a series of dot plots which dynamically update to show the demographic breakdown of responses for a particular behavior.</p>
   <h3>Interactivity</h3>
-  <p>Select the text “Click here to learn more” to open a drop-down box with instructions and a link to the methodology.</p>
+  <p>Select the text “Learn more” to open a drop-down box with instructions and a link to the methodology.</p>
   <p>Click on a single bar within the bar chart to see how that topic differs within each group displayed in the dot plots. The dot plots include confidence intervals which can be used to identify potential meaningful differences.</p>
-  <p>Clicking on a bar in the bar chart on the left adjusts the universe of beneficiaries in the dot plots on the right. For example, clicking on the bar corresponding to “Wore a facemask” in the Preventive Behaviors dashboard updates the universe of beneficiaries in the dot plots to all beneficiaries who had a valid response to the question: “Have you worn a facemask when out in public in response to the outbreak of COVID-19?”</p>
-  <p>Click on the time period (e.g., Winter 2021) in the dashboard description to change the data source. The Summer 2020 option shows data collected between June-July 2020, the Fall 2020 option shows data collected between October-November 2020, and the Winter 2021 option shows data collected between March-April 2021.</p>
-  <p>Toggle between the Demographics and Health tabs on the right to see how topics differ by beneficiary characteristics. The Demographics tab includes breakdowns by different demographic variables such as Sex, Age, and Total Household Income. The Health tab includes breakdowns by different health factors such as Current Smoker and Chronic Conditions.</p>
+  <p>Clicking on a bar in the bar chart adjusts the universe of beneficiaries in the dot plots. For example, clicking on the bar corresponding to “Wore a facemask” in the Preventive Behaviors dashboard updates the universe of beneficiaries in the dot plots to all beneficiaries who had a valid response to the question: “Have you worn a facemask when out in public in response to the outbreak of COVID-19?”</p>
+  <p>Click on the time period (e.g., Winter 2021) to change the data source. The Summer 2020 option shows data collected between June-July 2020, the Fall 2020 option shows data collected between October-November 2020, and the Winter 2021 option shows data collected between March-April 2021.</p>
+  <p>Toggle between the Demographic Group and Health Factor tabs to see how topics differ by beneficiary characteristics. The Demographic Group tab includes breakdowns by different demographic variables such as Sex, Age, and Total Household Income. The Health Factor tab includes breakdowns by different health factors such as Current Smoker and Chronic Conditions.</p>
   <p>Scales on the dot plots are dynamic. Estimates should only be compared within groups in the dot plots, not across. For example, the “Male” group should not be compared to the “75+ years” group.</p>
   <h3>Hover-Overs</h3>
   <p>Hovering over a particular bar or dot in the tool allows users to view additional details about that particular question and the survey responses. For example, hovering over the bar corresponding to “Worn a facemask” in the Preventive Behaviors dashboard will provide the following information: “% of Medicare beneficiaries responded ‘yes’ to the question: Have you worn a facemask when out in public in response to the outbreak of COVID-19?”</p>

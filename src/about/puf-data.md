@@ -56,11 +56,11 @@ aboutNav:
   <h2>More Information on MCBS Survey File PUF Data</h2>
   <p>To learn more about the Survey File PUF data and how to appropriately analyze the data, see the following resources:</p>
   <div class='about__indent'>
-    <h4>Questionnaires</h4>
+    <h3 class='nospace'>Questionnaires</h3>
     <p>Download the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Questionnaires' target='_blank'>MCBS Questionnaires</a>.</p>
   </div>
   <div class='about__indent'>
-    <h4>Public Use File</h4>
+    <h3 class='nospace'>Public Use File</h3>
     <p>Download the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/MCBS-Public-Use-File/index' target='_blank'>2013-2019 MCBS Survey File PUFs</a>, including the analytic weights, data user documentation, and codebook.</p>
   </div>
 </section>
@@ -129,9 +129,10 @@ aboutNav:
   <h2>How to Use This Tool</h2>
   <p>Each dashboard consists of a bar chart presenting outcome variables related to a theme. For example, the dashboard on Insurance Coverage shows the percent of beneficiaries who have different types of insurance. The dashboard also shows a series of dot plots which dynamically update to show the demographic breakdown of responses for a particular category.</p>
   <h3>Interactivity</h3>
+  <p>Select the text “Learn more” to open a drop-down box with instructions and a link to the methodology.</p>
   <p>Click on a single bar within the bar chart to see how that topic differs within each group displayed in the dot plots. The dot plots include confidence intervals which can be used to identify potential meaningful differences.</p>
-  <p>Clicking on a bar in the bar chart on the left adjusts the universe of beneficiaries in the dot plots on the right. For example, clicking on the bar corresponding to “Fee-for-Service (FFS)” in the Insurance Coverage dashboard updates the universe of beneficiaries in the dot plots to all beneficiaries who had a valid response to the question about type of Medicare coverage.”</p>
-  <p>Click on SELECT A YEAR (e.g., 2019) to change the survey year.</p>
+  <p>Clicking on a bar in the bar chart adjusts the universe of beneficiaries in the dot plots. For example, clicking on the bar corresponding to “Fee-for-Service (FFS)” in the Insurance Coverage dashboard updates the universe of beneficiaries in the dot plots to all beneficiaries who had a valid response to the question about type of Medicare coverage.”</p>
+  <p>Click on the time period (e.g., 2019) to change the data source/survey year.</p>
   <p>Scales on the dot plots are dynamic. Estimates should only be compared within groups in the dot plots, not across. For example, the “Male” group should not be compared to the “75+ years” group.</p>
   <h3>Hover-Overs</h3>
   <p>Hovering over a particular bar or dot in the tool allows users to view additional details about that particular question and the survey responses. For example, hovering over the bar corresponding to “Fee-for-Service (FFS)” in the Insurance Coverage dashboard will provide the percent estimate for that category as well as the standard error.</p>
