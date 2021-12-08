@@ -82,16 +82,16 @@
   </div>
 
   <div class='home-container' id='explore'>
-    <h2 class='homepage-label homepage-label__white'>Search MCBS data tools</h2>
+    <h2 class='homepage-label homepage-label__blue' id='searchTitle'>Search MCBS data tools</h2>
     <div class='search-wrapper'>
-      <form class='search'>
-        <label for='search' class='sr-only'>Search:</label>
-        <input type='text' name='search' placeholder='Type to search ...'>
-        <ul class='search__autocomplete'>
+      <form class='searchbox' autocomplete="off">
+        <label id='searchLabel' for='search' class='sr-only'>Search:</label>
+        <input type='text' name='search' id='search' placeholder='Type to search ...' aria-labelledby="searchTitle searchLabel">
+        <ul class='searchbox__autocomplete'>
         </ul>
-        <button type='submit' class='search__icon'>
-          <span class="sr-only">Search</span>
-          <svg class='search__icon__svg'>
+        <button type='submit' class='searchbox__icon'>
+          <span class="sr-only">submit</span>
+          <svg class='searchbox__icon__svg'>
             <use href='#searchIcon'/>
           </svg>
         </button>
