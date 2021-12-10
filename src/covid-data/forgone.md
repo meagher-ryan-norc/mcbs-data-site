@@ -1,6 +1,7 @@
 ---
 layout: chart-covid.njk
 title: Forgone Care
+name: forgone
 description: Examine how Medicare beneficiaries put their health care on hold during the COVID-19 pandemic and investigate the types of forgone care.
 imgAlt: Dentist examining a woman's mouth
 order: 2

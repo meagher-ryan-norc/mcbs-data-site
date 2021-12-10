@@ -1,6 +1,7 @@
 ---
 layout: chart-covid.njk
 title: Information about COVID-19
+name: information
 description: Investigate the different sources Medicare beneficiaries relied on for information about COVID-19.
 imgAlt: Rendering of COVID-19 molecules
 order: 6

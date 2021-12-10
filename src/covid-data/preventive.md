@@ -1,6 +1,7 @@
 ---
 layout: chart-covid.njk
 title: Preventive Behaviors
+name: preventive
 description: Explore how Medicare beneficiaries changed their health behaviors during the COVID-19 pandemic.
 imgAlt: Woman wearing a disposable mask
 order: 1

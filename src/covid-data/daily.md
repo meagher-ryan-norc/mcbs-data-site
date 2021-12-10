@@ -1,6 +1,7 @@
 ---
 layout: chart-covid.njk
 title: Impact on Daily Life
+name: daily
 description: Learn about how the COVID-19 pandemic affected the everyday lives of Medicare beneficiaries.
 imgAlt: Woman delivering groceries to an elderly woman
 order: 3

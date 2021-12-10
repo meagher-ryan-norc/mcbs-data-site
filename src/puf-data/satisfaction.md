@@ -1,6 +1,7 @@
 ---
 layout: chart-puf.njk
 title: Satisfaction with and Access to Care
+name: satisfaction
 description: Learn more about Medicare beneficiaries’ satisfaction with and access to care by year.
 imgAlt: A smiling white-haired man in conversation with a red-haired woman
 order: 3

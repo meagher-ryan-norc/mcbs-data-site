@@ -1,0 +1,88 @@
+.rshinyframe {
+  width: 100%;
+
+  &--preventive {
+    height: 2375px;
+  }
+
+  &--daily {
+    height: 2375px;
+  }
+
+  &--well-being {
+    height: 2375px;
+  }
+
+  &--telemedicine {
+    height: 2455px;
+  }
+
+  &--information {
+    height: 2415px;
+  }
+
+  &--vaccines {
+    height: 2355px;
+  }
+
+  &--severity {
+    height: 2375px;
+  }
+
+  &--health {
+    height: 2678px;
+  }
+
+  &--satisfaction {
+    height: 2470px;
+  }
+
+  &--insurance {
+    height: 2470px;
+  }
+}
+
+@media all and (min-width: 934px) {
+  .rshinyframe {
+
+    &--preventive {
+      height: 1015px;
+    }
+
+    &--daily {
+      height: 1015px;
+    }
+
+    &--well-being {
+      height: 1015px;
+    }
+
+    &--telemedicine {
+      height: 1055px;
+    }
+
+    &--information {
+      height: 1015px;
+    }
+
+    &--vaccines {
+      height: 1060px;
+    }
+
+    &--severity {
+      height: 1015px;
+    }
+
+    &--health {
+      height: 1155px;
+    }
+
+    &--satisfaction {
+      height: 1265px;
+    }
+
+    &--insurance {
+      height: 1265px;
+    }
+  }
+}

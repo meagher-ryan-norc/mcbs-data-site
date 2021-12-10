@@ -29,13 +29,13 @@
     </div>
   </div>
 
-  <div class='iframe-container' data-pym-src="{{iframe}}">
+  <div class='iframe-container'>
+    <iframe frameborder="0" class="rshinyframe rshinyframe--{{name}}" src="{{iframe}}" title="{{title}} iframe"></iframe>
   </div>
 </main>
 {% endblock %}
 
 {% block scripts %}
 {{ super() }}
-<script language="JavaScript" type="text/javascript" src='/js/pym.min.js'></script>
 <script language="JavaScript" type="text/javascript" src='/js/chart.js'></script>
 {% endblock %}

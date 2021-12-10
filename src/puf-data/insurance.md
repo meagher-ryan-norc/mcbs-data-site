@@ -1,6 +1,7 @@
 ---
 layout: chart-puf.njk
 title: Insurance Coverage
+name: insurance
 description: Explore differences in health insurance coverage across Medicare beneficiaries by year.
 imgAlt: A pen resting on top of a stack of insurance forms
 order: 1
