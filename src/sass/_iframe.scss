@@ -5,6 +5,10 @@
     height: 2375px;
   }
 
+  &--forgone {
+    height: 2375px;
+  }
+
   &--daily {
     height: 2375px;
   }
@@ -30,15 +34,15 @@
   }
 
   &--health {
-    height: 2678px;
+    height: 2378px;
   }
 
   &--satisfaction {
-    height: 2470px;
+    height: 2170px;
   }
 
   &--insurance {
-    height: 2470px;
+    height: 2170px;
   }
 }
 
@@ -46,43 +50,47 @@
   .rshinyframe {
 
     &--preventive {
-      height: 1015px;
+      height: 945px;
+    }
+
+    &--forgone {
+      height: 945px;
     }
 
     &--daily {
-      height: 1015px;
+      height: 945px;
     }
 
     &--well-being {
-      height: 1015px;
+      height: 945px;
     }
 
     &--telemedicine {
-      height: 1055px;
+      height: 985px;
     }
 
     &--information {
-      height: 1015px;
+      height: 945px;
     }
 
     &--vaccines {
-      height: 1060px;
+      height: 990px;
     }
 
     &--severity {
-      height: 1015px;
+      height: 945px;
     }
 
     &--health {
-      height: 1155px;
+      height: 1055px;
     }
 
     &--satisfaction {
-      height: 1265px;
+      height: 1005px;
     }
 
     &--insurance {
-      height: 1265px;
+      height: 1005px;
     }
   }
 }

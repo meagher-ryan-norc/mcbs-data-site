@@ -70,7 +70,7 @@
 }
 
 .chart-main {
-  padding: 2rem 1rem;
+  padding: 2rem 1rem 0 1rem;
 }
 
 .chart-dropdown {
@@ -157,14 +157,68 @@
   margin: 2rem 0 0 0;
 }
 
-// .rshinyframe {
-//   height: 1650px;
-//   border: none;
-//   width: 100%;
-// }
+//740px
+@media all and (max-width: 740px) {
+  .chart-nav__container {
+    h4 {
+      font-size: 20px;
+    }
 
-@media all and (min-width: 800px) {
-  // .rshinyframe {
-  //   height: 660px;
-  // }
+    .arrow {
+      width: 20px;
+      height: 20px;
+      transform: translate(0,2px);
+    }
+
+    &--puf--active .arrow, &--covid--active .arrow {
+      transform: rotate(90deg) translate(2px,0);
+    }
+  }
+
+  .chart-dropdown {
+    &__title {
+      font-size: 42px;
+    }
+
+    &__content a {
+      font-size: 16px;
+    }
+  }
 }
+
+//320px
+@media all and (max-width: 740px) {
+  .chart-nav__container {
+    h4 {
+      font-size: 16px;
+    }
+  }
+
+  .chart-dropdown {
+    &__title {
+      font-size: 34px;
+
+      &:hover, &:focus-visible {
+        cursor: pointer;
+        .chevron {
+          transform: rotate(90deg) translate(2px, 4px);
+        }
+      }
+
+      &.active .chevron {
+        transform: rotate(90deg) translate(2px, 4px);
+      }
+    }
+
+    &__content a {
+      font-size: 14px;
+    }
+
+    .chevron {
+      width: 32px;
+      height: 32px;
+      transform: translate(-3px, 4px);
+    }
+  }
+}
+
