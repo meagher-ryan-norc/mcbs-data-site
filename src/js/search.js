@@ -87,10 +87,6 @@ inputBox.onkeyup = (e) => {
       });
       searchContainer.classList.add('active');
       renderAutocomplete(filteredArr, autocompleteBox);
-      const autocompleteList = autocompleteBox.querySelectorAll('li');
-      for (let i = 0; i < autocompleteList.length; i++){
-        autocompleteList[i].setAttribute("onclick", "selectAutocomplete(this)");
-      }
     }
   }
 
@@ -115,10 +111,18 @@ inputBox.onkeyup = (e) => {
   }
 }
 
+autocompleteBox.addEventListener('click', e => {
+  if (e.target.tagName === "LI") {
+    selectAutocomplete(e.target);
+  }
+})
+
 function selectAutocomplete(element) {
   const selectData = element.textContent;
   inputBox.value = selectData;
-  document.querySelector('.ac-focused').classList.remove('ac-focused');
+  if (document.querySelector('.ac-focused')) {
+    document.querySelector('.ac-focused').classList.remove('ac-focused');
+  }
   document.querySelector('.searchbox').dispatchEvent(new Event('submit'));
   searchContainer.classList.remove('active');
 }
