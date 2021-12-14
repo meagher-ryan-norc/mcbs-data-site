@@ -198,12 +198,17 @@
     .slide__info__text {
       max-height: 500px;
       transition: all 0.3s ease;
+
+      p {
+        display: block;
+      }
     }
   }
 }
 
 .slide__info {
   position: absolute;
+  width: calc(100% - 3rem);
   left: 0;
   bottom: 0;
   background: rgba(0,0,0,0.7);
@@ -216,6 +221,7 @@
     font-weight: 800;
     font-size: 26px;
     margin: 0;
+    width: 100%;
   }
 
   p {
@@ -243,6 +249,10 @@
   max-height: 0px;
   overflow: hidden;
   transition: all 0.3s ease;
+
+  p {
+    display: none;
+  }
 }
 
 #explore {
