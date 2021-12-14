@@ -480,6 +480,10 @@
 
     &__text {
       max-height: none;
+
+      p {
+        display: block;
+      }
     }
   }
 
