@@ -93,7 +93,7 @@ Some step-by-step instructions for updating the site's dashboards:
 
 3. **Add an image for the dashboard to the `img/carousel` folder.** This image is used in the carousel. It should be a .jpg, and the filename should match the name of the .md file (*example.jpg* for *example.md*).
 
-4. **Add the heights for the iframe into `_iframe.scss` file.** Mimic the format displayed in this file to add a height in pixels for the iframe in both mobile and display widths. The selector for the iframe will be `.rshinyframe--example`, where *example* is the name of the dashboard's .md file and the value in the "name" field of the frontmatter.
+4. **Add the heights for the iframe into `_iframe.scss` file.** Mimic the format displayed in this file to add a height in pixels for the iframe in both mobile and desktop widths. The selector for the iframe will be `.rshinyframe--example`, where *example* is the name of the dashboard's .md file and the value in the "name" field of the frontmatter.
 
 5. **Eleventy should handle the rest.** Everything else is handled by Eleventy collections. The dashboard will be inserted into its place in the carousel and search, and a page will be created in the dashboard group displaying an iframe with the URL given in the frontmatter.
 
