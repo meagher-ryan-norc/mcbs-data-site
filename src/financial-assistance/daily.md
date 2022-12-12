@@ -1,5 +1,5 @@
 ---
-layout: chart-covid.njk
+layout: chart-finance.njk
 title: Impact on Daily Life
 name: daily
 description: Learn about how the COVID-19 pandemic affected the everyday lives of Medicare beneficiaries.

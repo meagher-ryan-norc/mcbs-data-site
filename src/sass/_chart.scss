@@ -50,6 +50,18 @@
     }
   }
 
+  &--finance:hover,
+  &--finance:focus-visible &--finance.active {
+    background: $mcbs-blue;
+    color: white;
+    text-decoration: underline;
+
+    .arrow {
+      fill: white;
+      transform: rotate(90deg) translate(4px, 0);
+    }
+  }
+
   &--covid--active {
     background: $mcbs-yellow;
     color: $mcbs-blue;
@@ -71,7 +83,7 @@
   }
 
   &--finance--active {
-    background: $mcbs-green;
+    background: $mcbs-blue;
     color: white;
 
     .arrow {
