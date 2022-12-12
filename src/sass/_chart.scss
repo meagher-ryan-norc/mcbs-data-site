@@ -3,10 +3,18 @@
 }
 
 .chart-nav__container {
+  // DEFAULT LOOK
+  --color-background: #{$mcbs-lite-gray};
+  --color-text: #{$mcbs-gray};
+
+  // DEFAULT ACTIVE STATE
+  --color-active-background: black;
+  --color-active-text: white;
+
   width: 50%;
   padding: 2rem 1rem;
-  background: $mcbs-lite-gray;
-  color: $mcbs-gray;
+  background: var(--color-background);
+  color: var(--color-text);
   text-decoration: none;
   transition: all 0.5s ease;
 
@@ -22,74 +30,37 @@
   .arrow {
     width: 28px;
     height: 28px;
-    fill: $mcbs-gray;
+    fill: var(--color-text);
     transform: translate(0, 4px);
     transition: all 0.5s ease;
   }
-  &--puf:hover,
-  &--puf:focus-visible {
-    background: $mcbs-green;
-    color: white;
+
+  // ESTABLISH HOVER/FOCUS/ACTIVE STATE
+  &--active,
+  &:hover,
+  &:focus-visible {
+    background: var(--color-active-background);
+    color: var(--color-active-text);
     text-decoration: underline;
 
     .arrow {
-      fill: white;
+      fill: var(--color-active-text);
       transform: rotate(90deg) translate(4px, 0);
     }
   }
 
-  &--covid:hover,
-  &--covid:focus-visible {
-    background: $mcbs-yellow;
-    color: $mcbs-blue;
-    text-decoration: underline;
-
-    .arrow {
-      fill: $mcbs-blue;
-      transform: rotate(90deg) translate(4px, 0);
-    }
+  // ESTABLISH THEMED COLORS FOR EACH MENU ITEM
+  &--puf {
+    --color-active-background: #{$mcbs-green};
+    --color-active-text: white;
   }
-
-  &--finance:hover,
-  &--finance:focus-visible &--finance.active {
-    background: $mcbs-blue;
-    color: white;
-    text-decoration: underline;
-
-    .arrow {
-      fill: white;
-      transform: rotate(90deg) translate(4px, 0);
-    }
+  &--finance {
+    --color-active-background: #{$mcbs-blue};
+    --color-active-text: white;
   }
-
-  &--covid--active {
-    background: $mcbs-yellow;
-    color: $mcbs-blue;
-
-    .arrow {
-      fill: $mcbs-blue;
-      transform: rotate(90deg) translate(4px, 0);
-    }
-  }
-
-  &--puf--active {
-    background: $mcbs-green;
-    color: white;
-
-    .arrow {
-      fill: white;
-      transform: rotate(90deg) translate(4px, 0);
-    }
-  }
-
-  &--finance--active {
-    background: $mcbs-blue;
-    color: white;
-
-    .arrow {
-      fill: white;
-      transform: rotate(90deg) translate(4px, 0);
-    }
+  &--covid {
+    --color-active-background: #{$mcbs-yellow};
+    --color-active-text: #{$mcbs-blue};
   }
 }
 
