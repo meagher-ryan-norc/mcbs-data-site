@@ -25,7 +25,8 @@
       <div class='splide'>
         <div class='splide__track'>
           <ul class='splide__list'>
-            {% for chart in collections.sortedCovid %}
+            {# TODO: New carousel data #}
+            {% for chart in collections.sortedFinancialAssistance %}
             <li class='splide__slide'>
               <img src='/img/carousel/{{chart.fileSlug}}.jpg' alt='{{ chart.data.imgAlt }}'>
               <a class='slide__link' href='{{ chart.url }}' aria-label='Link to {{ chart.data.title }} data tool'>

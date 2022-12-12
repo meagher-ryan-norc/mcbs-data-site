@@ -2,7 +2,7 @@
 title: Medicare Current Beneficiary Survey Interactive Data Tools
 layout: home.njk
 hed: Tools to learn about the Medicare population
-financeKicker: Kicker TKTKTK
+financeKicker: Financial well-being data tool
 financeHed: Hede TK TK
 financeText: Text tk tkt kt kt kt kt kt kt tkt k
 covidKicker: Covid-19 data tool
