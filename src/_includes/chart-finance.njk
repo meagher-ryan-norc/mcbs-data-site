@@ -14,7 +14,7 @@
       </svg>
     </button>
     <div class='chart-dropdown__content'>
-      {% for chart in collections.sortedPuf %}
+      {% for chart in collections.sortedFinancialAssistance %}
         {% if chart.data.title != title %}
         <a href="{{ chart.url }}">{{chart.data.title}}</a>
         {% endif %}
