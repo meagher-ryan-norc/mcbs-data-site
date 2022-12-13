@@ -60,7 +60,8 @@ aboutNav:
 <div class='about__indent about__indent--citation'>
 <p>Parker, Jennifer D., Makram Talih, Donald J., Malec, et al. “National Center for Health Statistics Data Presentation Standards for Proportions.” National Center for Health Statistics. Vital Health Stat 2, no. 175 (2017).</p>
 
-<p>To link to this article: <a href='https://www.cdc.gov/nchs/data/series/sr_02/sr02_175.pdf' target='_blank'>https://www.cdc.gov/nchs/data/series/sr_02/sr02_175.pdf</a.</p> 
+<p>To link to this article: <a href='https://www.cdc.gov/nchs/data/series/sr_02/sr02_175.pdf' target='_blank'>https://www.cdc.gov/nchs/data/series/sr_02/sr02_175.pdf</a></p> 
+</div>
 
 
  <h3>Data Tool Measure Construction</h3>
@@ -68,7 +69,7 @@ aboutNav:
 <p>Several measures included in the dashboards are created using derived variables. These derived variables combine information from one or more variables available in the Survey File LDS:
 
 <p><span class='about__indent__bold'>Assets at Financial Institutions:</span> Assets at financial institutions comprise a group of three assets measures: if the beneficiary and/or their spouse has a checking account, a savings account, or certificates of deposit.</p>
-
+ <div class='about__indent'>
  <h3>Chronic Condition Measures</h3>
 
 <p><span class='about__indent__bold'>Heart Disease:</span> Respondents were asked if a doctor or other health professional had ever told them that they had myocardial infarction (heart attack), angina pectoris or coronary heart disease (CHD), congestive heart failure, or any other heart condition. Respondents who reported more than one condition are only counted once for the purposes of calculating the proportion of beneficiaries with heart disease.</p>
@@ -94,7 +95,7 @@ aboutNav:
 <p><strong>Limited Driving to Daytime:</strong> Respondents were asked if they have given up driving all together or have limited driving to daytime. The limited driving to daytime measure is applicable to respondents who were asked if they have limited driving to daytime but have not given up driving all together.</p>
 
 <p><strong>Medicare Coverage:</strong> Beneficiaries were coded as having Medicare Advantage (MA) coverage if they had MA coverage for one or more months out of the calendar year. Otherwise, beneficiaries were coded as having traditional Fee-for-Service (FFS) coverage.</p>
-
+</div>
 
 <h3>Estimates and Weights</h3>
 
@@ -107,7 +108,8 @@ aboutNav:
 <div class='about__indent about__indent--citation'>
 <p>Wright, Tommy, Martin Klein, and Jerzy Wieczorek. “A Primer on Visualizations for Comparing Populations, Including the Issue of Overlapping Confidence Intervals.” The American Statistician 73, no. 2 (2019): 165-178. DOI: 10.1080/00031305.2017.1392359</p>
 
-<p>To link to this article: <a href='https://doi.org/10.1080/00031305.2017.1392359' target='_blank'>https://doi.org/10.1080/00031305.2017.1392359</p>
+<p>To link to this article: <a href='https://doi.org/10.1080/00031305.2017.1392359' target='_blank'>https://doi.org/10.1080/00031305.2017.1392359</a></p>
+</div>
 
 <p>This adjustment is done so that the confidence intervals can be readily used to determine if two estimates within a chart are, statistically speaking, different (see the use of confidence intervals to compare groups).</p>
 
