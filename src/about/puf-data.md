@@ -1,6 +1,6 @@
 ---
 title: "About the Survey File PUF Data"
-order: 3
+order: 2
 aboutNav:
   - text: "Background"
     link: "#background"

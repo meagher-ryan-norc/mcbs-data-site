@@ -1,6 +1,6 @@
 ---
 title: "About the COVID-19 Data"
-order: 2
+order: 1
 aboutNav:
   - text: "Background"
     link: "#background"
