@@ -5,6 +5,6 @@ name: assets
 description: Explore differences in Medicare beneficiaries' ownership of various financial assets.
 imgAlt: Woman delivering groceries to an elderly woman
 order: 1
-keywords: insurance, coverage, fee-for-service, fee for service, medicare advantage, ma, chronic, sex, gender, age, language, english, income, race, ethnicity, dual eligible, dual, dually eligible, geography, urban, rural, region, metropolitan, health status, disability, home, house, bank, retirement, savings, Social Security, Supplemental Security Income, SSI, pension, financial security, cost, costs, money, finance, finances
+keywords: Insurance, Coverage, Fee-for-service, Fee for service, Medicare Advantage, MA, Chronic, Sex, Gender, Age, Language, English, Income, Race, Ethnicity, Dual eligible, Dual, Dually eligible, Geography, Urban, Rural, Region, Metropolitan, Health status, Disability, Home, House, Bank, Retirement, Savings, Social Security, Supplemental Security Income, SSI, Pension, Financial security, Cost, Costs, Money, Finance, Finances
 iframe:
 ---

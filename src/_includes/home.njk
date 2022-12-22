@@ -6,7 +6,7 @@
     <h1>{{hed}}</h1>
     <div class='hero-img'>
       <img src='/img/chart-screencap.png' alt='Screen capture of MCBS data tool'>
-      <a href='/puf-data/insurance/'><span>EXPLORE DATA TOOLS</span></a>
+      <a href='/financial-assistance/assets/'><span>EXPLORE DATA TOOLS</span></a>
     </div>
   </div>
 
@@ -27,38 +27,6 @@
           <ul class='splide__list'>
             {# TODO: New carousel data #}
             {% for chart in collections.sortedFinancialAssistance %}
-            <li class='splide__slide'>
-              <img src='/img/carousel/{{chart.fileSlug}}.jpg' alt='{{ chart.data.imgAlt }}'>
-              <a class='slide__link' href='{{ chart.url }}' aria-label='Link to {{ chart.data.title }} data tool'>
-                <div class='slide__info'>
-                  <h4>{{ chart.data.title }}</h4>
-                  <div class='slide__info__text'>
-                    <p>{{ chart.data.description }}</p>
-                    <p class='slide__info__text--explore'>Explore data
-                      <svg class='slide__info__text--explore__arrow'>
-                        <use href='#rightarrow'/>
-                      </svg>
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </li>
-            {% endfor %}
-          </ul>
-        </div>
-      </div>
-    </div>
-    {# COVID CAROUSEL #}
-    <div class='carousel-flex'>
-      <div class='carousel-about'>
-        <h2 class='homepage-label'>{{covidKicker}}</h2>
-        <h3>{{covidHed}}</h3>
-        <p>{{covidText}}</p>
-      </div>
-      <div class='splide'>
-        <div class='splide__track'>
-          <ul class='splide__list'>
-            {% for chart in collections.sortedCovid %}
             <li class='splide__slide'>
               <img src='/img/carousel/{{chart.fileSlug}}.jpg' alt='{{ chart.data.imgAlt }}'>
               <a class='slide__link' href='{{ chart.url }}' aria-label='Link to {{ chart.data.title }} data tool'>
@@ -112,7 +80,40 @@
         </div>
       </div>
     </div>
-  </div>
+  
+  {# COVID CAROUSEL #}
+    <div class='carousel-flex'>
+      <div class='carousel-about'>
+        <h2 class='homepage-label'>{{covidKicker}}</h2>
+        <h3>{{covidHed}}</h3>
+        <p>{{covidText}}</p>
+      </div>
+      <div class='splide'>
+        <div class='splide__track'>
+          <ul class='splide__list'>
+            {% for chart in collections.sortedCovid %}
+            <li class='splide__slide'>
+              <img src='/img/carousel/{{chart.fileSlug}}.jpg' alt='{{ chart.data.imgAlt }}'>
+              <a class='slide__link' href='{{ chart.url }}' aria-label='Link to {{ chart.data.title }} data tool'>
+                <div class='slide__info'>
+                  <h4>{{ chart.data.title }}</h4>
+                  <div class='slide__info__text'>
+                    <p>{{ chart.data.description }}</p>
+                    <p class='slide__info__text--explore'>Explore data
+                      <svg class='slide__info__text--explore__arrow'>
+                        <use href='#rightarrow'/>
+                      </svg>
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>  
   <div class='home-container' id='explore'>
     <h2 class='homepage-label homepage-label__blue' id='searchTitle'>Search MCBS data tools</h2>
     <div class='search-wrapper'>

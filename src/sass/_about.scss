@@ -112,7 +112,7 @@
   &__indent {
     padding: 0 2rem;
     margin: 0 0 2rem 0;
-
+    
     &--citation {
       background: $mcbs-lite-gray;
       padding: 1rem 2rem;
@@ -127,7 +127,10 @@
       font-weight: bold;
     }
   }
-
+  &__double-indent {
+    padding: 0 3rem;
+    margin: 0 0 3rem 0;
+  }
   ul {
     margin: 1rem 0;
     line-height: 1.5em;

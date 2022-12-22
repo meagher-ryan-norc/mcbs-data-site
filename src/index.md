@@ -4,11 +4,11 @@ layout: home.njk
 hed: Tools to learn about the Medicare population
 financeKicker: Financial well-being data tool
 financeHed: Explore the financial well-being of Medicare beneficiaries
-financeText: The interactive dashboards in this tool present estimates from the MCBS on various topics related to the financial well-being of Medicare beneficiaries.
+financeText: The interactive dashboards in this tool present estimates from the Medicare Current Beneficiary Survey (MCBS) on various topics related to the financial well-being of Medicare beneficiaries.
 covidKicker: Covid-19 data tool
 covidHed: Explore the COVID-19 pandemic’s impact on Medicare beneficiaries
-covidText: The interactive dashboards in this tool present estimates from the Medicare Current Beneficiary Survey (MCBS) COVID-19 Supplement Public Use Files (PUFs) on Medicare beneficiaries’ experiences during the COVID-19 pandemic.
+covidText: The interactive dashboards in this tool present estimates from the MCBS COVID-19 Supplement PUFs on Medicare beneficiaries’ experiences during the COVID-19 pandemic.
 pufKicker: Survey file PUF data tool
 pufHed: Explore trends in the Medicare population
-pufText: The interactive dashboards in this tool present estimates from the MCBS Survey File PUFs to explore various trends related to the Medicare population.
+pufText: The interactive dashboards in this tool present estimates from the MCBS Survey File Public Use Files (PUFs) to explore various trends related to the Medicare population.
 ---

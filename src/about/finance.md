@@ -1,6 +1,6 @@
 ---
 title: "About the Financial Well-being PUF Data"
-order: 1
+order: 2
 aboutNav:
   - text: "Background"
     link: "#background"
@@ -36,7 +36,7 @@ aboutNav:
     </div>
     <div class='about__indent'>
     <h3 class='nospace'>Limited Data Set</h3>
-    <p>Download documentation for the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Data-Tables' target='_blank'>MCBS LDS</a>, including the Data User’s Guides and Methodology Reports, and learn more about the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Files-for-Order/Data-Disclosures-Data-Agreements/DUA_-_NewLDS' target='_blank'>LDS DUA process</a>.</p>
+    <p>Download documentation for the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Codebooks ' target='_blank'>MCBS LDS</a>, including the Data User’s Guides and Methodology Reports, and learn more about the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Files-for-Order/Data-Disclosures-Data-Agreements/DUA_-_NewLDS' target='_blank'>LDS DUA process</a>.</p>
     </div>
     </section>
 <section id='about'>
@@ -68,9 +68,13 @@ aboutNav:
 
 <p>Several measures included in the dashboards are created using derived variables. These derived variables combine information from one or more variables available in the Survey File LDS:
 
+<div class='about__indent'>
+
 <p><span class='about__indent__bold'>Assets at Financial Institutions:</span> Assets at financial institutions comprise a group of three assets measures: if the beneficiary and/or their spouse has a checking account, a savings account, or certificates of deposit.</p>
- <div class='about__indent'>
- <h3>Chronic Condition Measures</h3>
+ 
+<h3>Chronic Condition Measures</h3>
+
+<div class='about__double-indent'>
 
 <p><span class='about__indent__bold'>Heart Disease:</span> Respondents were asked if a doctor or other health professional had ever told them that they had myocardial infarction (heart attack), angina pectoris or coronary heart disease (CHD), congestive heart failure, or any other heart condition. Respondents who reported more than one condition are only counted once for the purposes of calculating the proportion of beneficiaries with heart disease.</p>
 
@@ -79,6 +83,8 @@ aboutNav:
 <p><span class='about__indent__bold'>Number of Chronic Conditions:</span> Chronic conditions comprises a group of 13 health conditions measures: heart disease, cancer (other than skin cancer), Alzheimer's disease, dementia other than Alzheimer’s disease, depression, mental condition, hypertension, diabetes, osteoporosis/broken hip, pulmonary disease, stroke, high cholesterol, and Parkinson’s disease. It is possible for a beneficiary to have "ever" been diagnosed with both Alzheimer’s disease and dementia (other than Alzheimer’s disease) as previous survey responses are carried forward into subsequent data years. For the purposes of the number of chronic conditions measure, Alzheimer’s disease and dementia (other than Alzheimer’s disease) are counted as one chronic condition for beneficiaries diagnosed with both conditions. As the definition of mental condition encompasses depression, for the purposes of the number of chronic conditions measure, depression and mental condition are counted as one chronic condition for beneficiaries diagnosed with both conditions.</p>
 
 <p><span class='about__indent__bold'>Osteoporosis/Broken Hip:</span> Respondents were asked whether a doctor or other health professional has ever told them that they had osteoporosis or a broken hip. The osteoporosis/broken hip measure counts the presence of at least one of these conditions. Beneficiaries who have more than one condition are only counted once for the purposes of calculating the proportion of beneficiaries with osteoporosis/broken hip.</p>
+
+</div>
 
 <p><span class='about__indent__bold'>Couldn't Afford Balanced Meals:</span> Respondents were asked if the following statement was often true, sometimes true, or never true in the last 12 months: The beneficiary or other adults in the beneficiary’s household couldn’t afford to eat balanced meals. Beneficiaries were coded as "Yes" if this was "often true" or "sometimes true".</p>
 

@@ -11,12 +11,15 @@ aboutNav:
   - text: "Recommended Citations"
     link: "#citations"
     class: "scroll"
-  - text: "About the COVID-19 Data Tool"
-    link: "/about/covid-data"
+  - text: "About the Financial Well-being Data Tool"
+    link: "/about/finance"
     class: "page"
   - text: "About the Survey PUF Data Tool"
     link: "/about/puf-data"
     class: "page"
+  - text: "About the COVID-19 Data Tool"
+    link: "/about/covid-data"
+    class: "page"    
 ---
 
 <section id='background'>
@@ -44,7 +47,7 @@ aboutNav:
     <p>For more information about using MCBS data and analytic guidance, check out the <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Data-Briefs' target='_blank'>New and Advanced User Tutorials</a>.</p>
   </div>
   <div class='about__indent'>
-    <h3 class='nospace'>>MCBS Estimates</h3>
+    <h3 class='nospace'>MCBS Estimates</h3>
     <p>To see MCBS estimates on various topics of interest, check out:</p>
     <ul>
       <li><a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/MCBS/Data-Tables' target='_blank'>MCBS Chartbook</a>, published annually.</li>
@@ -66,14 +69,18 @@ aboutNav:
   <h2>Recommended Citations</h2>
   <p>To cite the overall MCBS Interactives website:</p>
   <div class='about__indent about__indent--citation'>
-    <p>NORC at the University of Chicago. Medicare Current Beneficiary Survey (MCBS) Interactives. Last modified 2021. https://mcbs-interactives.norc.org.</p>
+    <p>NORC at the University of Chicago. Medicare Current Beneficiary Survey (MCBS) Interactives. Last modified 2023. https://mcbs-interactives.norc.org.</p>
   </div>
-  <p>To cite the COVID-19 Data Tool:</p>
+  <p>To cite the Financial Well-being Data Tool:</p>
   <div class='about__indent about__indent--citation'>
-    <p>NORC at the University of Chicago. “COVID-19 Data Tool.” Medicare Current Beneficiary Survey (MCBS) Interactives. Last modified 2021. https://mcbs-interactives.norc.org.</p>
-  </div>
+    <p>NORC at the University of Chicago. “Financial Well-being Data Tool.” Medicare Current Beneficiary Survey (MCBS) Interactives. Last modified 2023. https://mcbs-interactives.norc.org.</p>
+  </div>  
   <p>To cite the Survey File PUF Data Tool:</p>
   <div class='about__indent about__indent--citation'>
     <p>NORC at the University of Chicago. “Survey File PUF Data Tool.” Medicare Current Beneficiary Survey (MCBS) Interactives. Last modified 2021. https://mcbs-interactives.norc.org.</p>
   </div>
+  <p>To cite the COVID-19 Data Tool:</p>
+  <div class='about__indent about__indent--citation'>
+    <p>NORC at the University of Chicago. “COVID-19 Data Tool.” Medicare Current Beneficiary Survey (MCBS) Interactives. Last modified 2021. https://mcbs-interactives.norc.org.</p>
+  </div>  
 </section>
