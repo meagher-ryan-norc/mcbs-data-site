@@ -149,6 +149,15 @@
       color: white;
     }
   }
+  &--finance {
+    a:hover,
+    a:focus-visible {
+      background: $mcbs-lite-blue;
+      color: white;
+    }
+  }
+
+
 }
 
 .iframe-container {

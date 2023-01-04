@@ -45,6 +45,25 @@
   &--insurance {
     height: 2170px;
   }
+  &--assets {
+    height: 2170px;
+  }
+
+  &--food {
+    height: 2170px;
+  }
+
+  &--internet {
+    height: 2170px;
+  }
+
+  &--transportation {
+    height: 2170px;
+  }
+
+
+
+
 }
 
 // Desktop heights
@@ -94,5 +113,22 @@
     &--insurance {
       height: 1005px;
     }
+
+    &--assets {
+      height: 1005px;
+    }
+
+    &--food {
+      height: 1005px;
+    }
+
+    &--internet {
+      height: 1005px;
+    }
+
+    &--transportation {
+      height: 1005px;
+    }
+
   }
 }
