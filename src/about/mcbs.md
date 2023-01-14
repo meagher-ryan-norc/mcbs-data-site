@@ -77,7 +77,7 @@ aboutNav:
   </div>  
   <p>To cite the Survey File PUF Data Tool:</p>
   <div class='about__indent about__indent--citation'>
-    <p>NORC at the University of Chicago. “Survey File PUF Data Tool.” Medicare Current Beneficiary Survey (MCBS) Interactives. Last modified 2021. https://mcbs-interactives.norc.org.</p>
+    <p>NORC at the University of Chicago. “Survey File PUF Data Tool.” Medicare Current Beneficiary Survey (MCBS) Interactives. Last modified 2023. https://mcbs-interactives.norc.org.</p>
   </div>
   <p>To cite the COVID-19 Data Tool:</p>
   <div class='about__indent about__indent--citation'>

@@ -70,6 +70,8 @@ aboutNav:
 
 <div class='about__indent'>
 
+<p><span class='about__indent__bold'>Area Deprivation Index:</span> ADI is an indicator of the socioeconomic disadvantage of geographic areas. National rankings are based on the Census block group for the beneficiary’s primary residence address. ADI values in the 1-25th percentile are the least disadvantaged, while those in 75-100th percentile are the most disadvantaged.</p>
+
 <p><span class='about__indent__bold'>Assets at Financial Institutions:</span> Assets at financial institutions comprise a group of three assets measures: if the beneficiary and/or their spouse has a checking account, a savings account, or certificates of deposit.</p>
  
 <h3>Chronic Condition Measures</h3>
