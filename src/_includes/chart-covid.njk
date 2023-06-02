@@ -1,16 +1,8 @@
 {% extends "base.njk" %}
 
 {% block content %}
-<nav class='chart-nav' aria-label='extendedNavbar'>
-  <div class='chart-nav__container chart-nav__container--covid--active'>
-    <p>COVID-19 DATA TOOL<svg class='arrow'><use href='#rightarrow'/></svg>
-    </p>
-  </div>
-  <a href='/puf-data/insurance/' class='chart-nav__container chart-nav__container--puf'>
-    <p>SURVEY FILE PUF DATA TOOL<svg class='arrow'><use href='#rightarrow'/></svg>
-    </p>
-  </a>
-</nav>
+{% set active = "covid" %}
+{% include "components/subnav.njk" %}
 
 <main class='chart-main'>
   <h1 class='sr-only'>{{title}}</h1>

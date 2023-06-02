@@ -1,0 +1,34 @@
+{% extends "base.njk" %}
+
+{% block content %}
+{% set active = "finance" %}
+{% include "components/subnav.njk" %}
+
+
+<main class='chart-main'>
+  <h1 class='sr-only'>{{title}}</h1>
+  <div class='chart-dropdown chart-dropdown--finance'>
+    <button class='chart-dropdown__title'>{{title}}
+      <svg class='chevron'>
+        <use href='#rightchevron'/>
+      </svg>
+    </button>
+    <div class='chart-dropdown__content'>
+      {% for chart in collections.sortedFinancialAssistance %}
+        {% if chart.data.title != title %}
+        <a href="{{ chart.url }}">{{chart.data.title}}</a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class='iframe-container'>
+    <iframe frameborder="0" class="rshinyframe rshinyframe--{{name}}" src="{{iframe}}" title="{{title}} iframe"></iframe>
+  </div>
+</main>
+{% endblock %}
+
+{% block scripts %}
+{{ super() }}
+<script nonce="rSL6sN3cG8qWRkd67nv" language="JavaScript" type="text/javascript" src='/js/chart.js'></script>
+{% endblock %}

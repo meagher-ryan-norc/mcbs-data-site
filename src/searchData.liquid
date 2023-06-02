@@ -9,11 +9,18 @@ const searchArr = [
     "url":"{{post.url}}"
   },
   {% endfor %}
-  {% for post in collections.sortedPuf %}{
+  {% for post in collections.sortedFinancialAssistance %}{
     "title":"{{post.data.title}}",
     "desc":"{{post.data.description}}",
     "keywords":"{{post.data.keywords}}",
     "url":"{{post.url}}"
+  },
+  {% endfor %}  
+  {% for post in collections.sortedPuf %}{
+    "title":"{{post.data.title}}",
+    "desc":"{{post.data.description}}",
+    "keywords":"{{post.data.keywords}}",
+    "url":"{{post.url}}"  
   }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
